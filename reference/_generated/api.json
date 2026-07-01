@@ -1,0 +1,4352 @@
+{
+  "signatures": {
+    "makeComponent": {
+      "name": "makeComponent",
+      "signature": "def makeComponent(baseobj=None, name=None, delete=False)",
+      "params": [
+        "baseobj",
+        "name",
+        "delete"
+      ],
+      "defaults": {
+        "baseobj": "None",
+        "name": "None",
+        "delete": "False"
+      },
+      "file": "ArchCommands.py",
+      "line": 232
+    },
+    "makeFace": {
+      "name": "makeFace",
+      "signature": "def makeFace(wires, method=2, cleanup=False)",
+      "params": [
+        "wires",
+        "method",
+        "cleanup"
+      ],
+      "defaults": {
+        "method": "2",
+        "cleanup": "False"
+      },
+      "file": "ArchCommands.py",
+      "line": 324
+    },
+    "makeCompoundFromSelected": {
+      "name": "makeCompoundFromSelected",
+      "signature": "def makeCompoundFromSelected(objects=None)",
+      "params": [
+        "objects"
+      ],
+      "defaults": {
+        "objects": "None"
+      },
+      "file": "ArchCommands.py",
+      "line": 1181
+    },
+    "makeIfcSpreadsheet": {
+      "name": "makeIfcSpreadsheet",
+      "signature": "def makeIfcSpreadsheet(archobj=None)",
+      "params": [
+        "archobj"
+      ],
+      "defaults": {
+        "archobj": "None"
+      },
+      "file": "ArchCommands.py",
+      "line": 1355
+    },
+    "makeWindowPreset": {
+      "name": "makeWindowPreset",
+      "signature": "def makeWindowPreset(windowtype, width, height, h1, h2, h3, w1, w2, o1, o2, placement=None)",
+      "params": [
+        "windowtype",
+        "width",
+        "height",
+        "h1",
+        "h2",
+        "h3",
+        "w1",
+        "w2",
+        "o1",
+        "o2",
+        "placement"
+      ],
+      "defaults": {
+        "placement": "None"
+      },
+      "file": "ArchWindowPresets.py",
+      "line": 31
+    },
+    "makeStructure": {
+      "name": "makeStructure",
+      "signature": "def makeStructure(baseobj=None, length=None, width=None, height=None, name=None)",
+      "params": [
+        "baseobj",
+        "length",
+        "width",
+        "height",
+        "name"
+      ],
+      "defaults": {
+        "baseobj": "None",
+        "length": "None",
+        "width": "None",
+        "height": "None",
+        "name": "None"
+      },
+      "file": "ArchStructure.py",
+      "line": 66
+    },
+    "makeStructuralSystem": {
+      "name": "makeStructuralSystem",
+      "signature": "def makeStructuralSystem(objects=[], axes=[], name=None)",
+      "params": [
+        "objects",
+        "axes",
+        "name"
+      ],
+      "defaults": {
+        "objects": "[]",
+        "axes": "[]",
+        "name": "None"
+      },
+      "file": "ArchStructure.py",
+      "line": 131
+    },
+    "makeAxis": {
+      "name": "makeAxis",
+      "signature": "def makeAxis(num=1, size=1000, name=None)",
+      "params": [
+        "num",
+        "size",
+        "name"
+      ],
+      "defaults": {
+        "num": "1",
+        "size": "1000",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 57
+    },
+    "makeAxisSystem": {
+      "name": "makeAxisSystem",
+      "signature": "def makeAxisSystem(axes, name=None)",
+      "params": [
+        "axes",
+        "name"
+      ],
+      "defaults": {
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 86
+    },
+    "makeBuildingPart": {
+      "name": "makeBuildingPart",
+      "signature": "def makeBuildingPart(objectslist=None, baseobj=None, name=None)",
+      "params": [
+        "objectslist",
+        "baseobj",
+        "name"
+      ],
+      "defaults": {
+        "objectslist": "None",
+        "baseobj": "None",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 103
+    },
+    "makeFloor": {
+      "name": "makeFloor",
+      "signature": "def makeFloor(objectslist=None, baseobj=None, name=None)",
+      "params": [
+        "objectslist",
+        "baseobj",
+        "name"
+      ],
+      "defaults": {
+        "objectslist": "None",
+        "baseobj": "None",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 121
+    },
+    "makeBuilding": {
+      "name": "makeBuilding",
+      "signature": "def makeBuilding(objectslist=None, baseobj=None, name=None)",
+      "params": [
+        "objectslist",
+        "baseobj",
+        "name"
+      ],
+      "defaults": {
+        "objectslist": "None",
+        "baseobj": "None",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 131
+    },
+    "makeCurtainWall": {
+      "name": "makeCurtainWall",
+      "signature": "def makeCurtainWall(baseobj=None, name=None)",
+      "params": [
+        "baseobj",
+        "name"
+      ],
+      "defaults": {
+        "baseobj": "None",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 190
+    },
+    "makeEquipment": {
+      "name": "makeEquipment",
+      "signature": "def makeEquipment(baseobj=None, placement=None, name=None)",
+      "params": [
+        "baseobj",
+        "placement",
+        "name"
+      ],
+      "defaults": {
+        "baseobj": "None",
+        "placement": "None",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 210
+    },
+    "makeFence": {
+      "name": "makeFence",
+      "signature": "def makeFence(section, post, path)",
+      "params": [
+        "section",
+        "post",
+        "path"
+      ],
+      "defaults": {},
+      "file": "Arch.py",
+      "line": 236
+    },
+    "makeFrame": {
+      "name": "makeFrame",
+      "signature": "def makeFrame(baseobj, profile, name=None)",
+      "params": [
+        "baseobj",
+        "profile",
+        "name"
+      ],
+      "defaults": {
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 254
+    },
+    "makeGrid": {
+      "name": "makeGrid",
+      "signature": "def makeGrid(name=None)",
+      "params": [
+        "name"
+      ],
+      "defaults": {
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 277
+    },
+    "makeMaterial": {
+      "name": "makeMaterial",
+      "signature": "def makeMaterial(name=None, color=None, transparency=None)",
+      "params": [
+        "name",
+        "color",
+        "transparency"
+      ],
+      "defaults": {
+        "name": "None",
+        "color": "None",
+        "transparency": "None"
+      },
+      "file": "Arch.py",
+      "line": 292
+    },
+    "makeMultiMaterial": {
+      "name": "makeMultiMaterial",
+      "signature": "def makeMultiMaterial(name=None)",
+      "params": [
+        "name"
+      ],
+      "defaults": {
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 315
+    },
+    "makePanel": {
+      "name": "makePanel",
+      "signature": "def makePanel(baseobj=None, length=0, width=0, thickness=0, placement=None, name=None)",
+      "params": [
+        "baseobj",
+        "length",
+        "width",
+        "thickness",
+        "placement",
+        "name"
+      ],
+      "defaults": {
+        "baseobj": "None",
+        "length": "0",
+        "width": "0",
+        "thickness": "0",
+        "placement": "None",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 359
+    },
+    "makePanelCut": {
+      "name": "makePanelCut",
+      "signature": "def makePanelCut(panel, name=None)",
+      "params": [
+        "panel",
+        "name"
+      ],
+      "defaults": {
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 388
+    },
+    "makePanelSheet": {
+      "name": "makePanelSheet",
+      "signature": "def makePanelSheet(panels=[], name=None)",
+      "params": [
+        "panels",
+        "name"
+      ],
+      "defaults": {
+        "panels": "[]",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 403
+    },
+    "makePipe": {
+      "name": "makePipe",
+      "signature": "def makePipe(baseobj=None, diameter=0, length=0, placement=None, name=None)",
+      "params": [
+        "baseobj",
+        "diameter",
+        "length",
+        "placement",
+        "name"
+      ],
+      "defaults": {
+        "baseobj": "None",
+        "diameter": "0",
+        "length": "0",
+        "placement": "None",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 419
+    },
+    "makePipeConnector": {
+      "name": "makePipeConnector",
+      "signature": "def makePipeConnector(pipes, radius=0, name=None)",
+      "params": [
+        "pipes",
+        "radius",
+        "name"
+      ],
+      "defaults": {
+        "radius": "0",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 452
+    },
+    "makeProfile": {
+      "name": "makeProfile",
+      "signature": "def makeProfile(profile=[0, 'REC', 'REC100x100', 'R', 100, 100])",
+      "params": [
+        "profile"
+      ],
+      "defaults": {
+        "profile": "[0, 'REC', 'REC100x100', 'R', 100, 100]"
+      },
+      "file": "Arch.py",
+      "line": 472
+    },
+    "makeProject": {
+      "name": "makeProject",
+      "signature": "def makeProject(sites=None, name=None)",
+      "params": [
+        "sites",
+        "name"
+      ],
+      "defaults": {
+        "sites": "None",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 503
+    },
+    "makeRebar": {
+      "name": "makeRebar",
+      "signature": "def makeRebar(baseobj=None, sketch=None, diameter=None, amount=1, offset=None, name=None)",
+      "params": [
+        "baseobj",
+        "sketch",
+        "diameter",
+        "amount",
+        "offset",
+        "name"
+      ],
+      "defaults": {
+        "baseobj": "None",
+        "sketch": "None",
+        "diameter": "None",
+        "amount": "1",
+        "offset": "None",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 539
+    },
+    "makeReference": {
+      "name": "makeReference",
+      "signature": "def makeReference(filepath=None, partname=None, name=None)",
+      "params": [
+        "filepath",
+        "partname",
+        "name"
+      ],
+      "defaults": {
+        "filepath": "None",
+        "partname": "None",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 590
+    },
+    "makeRoof": {
+      "name": "makeRoof",
+      "signature": "def makeRoof(baseobj=None, facenr=0, angles=[45.0], run=[250.0], idrel=[-1], thickness=[50.0], overhang=[100.0], name=None)",
+      "params": [
+        "baseobj",
+        "facenr",
+        "angles",
+        "run",
+        "idrel",
+        "thickness",
+        "overhang",
+        "name"
+      ],
+      "defaults": {
+        "baseobj": "None",
+        "facenr": "0",
+        "angles": "[45.0]",
+        "run": "[250.0]",
+        "idrel": "[-1]",
+        "thickness": "[50.0]",
+        "overhang": "[100.0]",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 612
+    },
+    "makeSectionPlane": {
+      "name": "makeSectionPlane",
+      "signature": "def makeSectionPlane(objectslist=None, name=None)",
+      "params": [
+        "objectslist",
+        "name"
+      ],
+      "defaults": {
+        "objectslist": "None",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 673
+    },
+    "makeSite": {
+      "name": "makeSite",
+      "signature": "def makeSite(objectslist=None, baseobj=None, name=None)",
+      "params": [
+        "objectslist",
+        "baseobj",
+        "name"
+      ],
+      "defaults": {
+        "objectslist": "None",
+        "baseobj": "None",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 704
+    },
+    "makeSpace": {
+      "name": "makeSpace",
+      "signature": "def makeSpace(objects=None, baseobj=None, name=None)",
+      "params": [
+        "objects",
+        "baseobj",
+        "name"
+      ],
+      "defaults": {
+        "objects": "None",
+        "baseobj": "None",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 730
+    },
+    "makeStairs": {
+      "name": "makeStairs",
+      "signature": "def makeStairs(baseobj=None, length=None, width=None, height=None, steps=None, name=None)",
+      "params": [
+        "baseobj",
+        "length",
+        "width",
+        "height",
+        "steps",
+        "name"
+      ],
+      "defaults": {
+        "baseobj": "None",
+        "length": "None",
+        "width": "None",
+        "height": "None",
+        "steps": "None",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 760
+    },
+    "makeRailing": {
+      "name": "makeRailing",
+      "signature": "def makeRailing(stairs)",
+      "params": [
+        "stairs"
+      ],
+      "defaults": {},
+      "file": "Arch.py",
+      "line": 860
+    },
+    "makeTruss": {
+      "name": "makeTruss",
+      "signature": "def makeTruss(baseobj=None, name=None)",
+      "params": [
+        "baseobj",
+        "name"
+      ],
+      "defaults": {
+        "baseobj": "None",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 907
+    },
+    "makeWall": {
+      "name": "makeWall",
+      "signature": "def makeWall(baseobj=None, height=None, length=None, width=None, align=None, face=None, name=None)",
+      "params": [
+        "baseobj",
+        "height",
+        "length",
+        "width",
+        "align",
+        "face",
+        "name"
+      ],
+      "defaults": {
+        "baseobj": "None",
+        "height": "None",
+        "length": "None",
+        "width": "None",
+        "align": "None",
+        "face": "None",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 929
+    },
+    "makeWindow": {
+      "name": "makeWindow",
+      "signature": "def makeWindow(baseobj=None, width=None, height=None, parts=None, name=None)",
+      "params": [
+        "baseobj",
+        "width",
+        "height",
+        "parts",
+        "name"
+      ],
+      "defaults": {
+        "baseobj": "None",
+        "width": "None",
+        "height": "None",
+        "parts": "None",
+        "name": "None"
+      },
+      "file": "Arch.py",
+      "line": 1082
+    }
+  },
+  "classes": {
+    "_Axis": {
+      "class": "_Axis",
+      "file": "ArchAxis.py",
+      "properties": [
+        {
+          "name": "Distances",
+          "type": "App::PropertyFloatList",
+          "group": "Axis",
+          "desc": "The intervals between axes",
+          "line": 70
+        },
+        {
+          "name": "Angles",
+          "type": "App::PropertyFloatList",
+          "group": "Axis",
+          "desc": "The angles of each axis",
+          "line": 72
+        },
+        {
+          "name": "Labels",
+          "type": "App::PropertyStringList",
+          "group": "Axis",
+          "desc": "The label of each axis",
+          "line": 74
+        },
+        {
+          "name": "CustomNumber",
+          "type": "App::PropertyString",
+          "group": "Axis",
+          "desc": "An optional custom bubble number",
+          "line": 76
+        },
+        {
+          "name": "Length",
+          "type": "App::PropertyLength",
+          "group": "Axis",
+          "desc": "The length of the axes",
+          "line": 78
+        },
+        {
+          "name": "Placement",
+          "type": "App::PropertyPlacement",
+          "group": "Base",
+          "desc": "",
+          "line": 81
+        },
+        {
+          "name": "Shape",
+          "type": "Part::PropertyPartShape",
+          "group": "Base",
+          "desc": "",
+          "line": 83
+        },
+        {
+          "name": "Limit",
+          "type": "App::PropertyLength",
+          "group": "Axis",
+          "desc": "If not zero, the axes are not represented as one full line but as two lines of the given length",
+          "line": 85
+        }
+      ]
+    },
+    "_ViewProviderAxis": {
+      "class": "_ViewProviderAxis",
+      "file": "ArchAxis.py",
+      "properties": [
+        {
+          "name": "BubbleSize",
+          "type": "App::PropertyLength",
+          "group": "Axis",
+          "desc": "The size of the axis bubbles",
+          "line": 178
+        },
+        {
+          "name": "NumberingStyle",
+          "type": "App::PropertyEnumeration",
+          "group": "Axis",
+          "desc": "The numbering style",
+          "line": 181
+        },
+        {
+          "name": "DrawStyle",
+          "type": "App::PropertyEnumeration",
+          "group": "Axis",
+          "desc": "The type of line to draw this axis",
+          "line": 185
+        },
+        {
+          "name": "BubblePosition",
+          "type": "App::PropertyEnumeration",
+          "group": "Axis",
+          "desc": "Where to add bubbles to this axis: Start, end, both or none",
+          "line": 189
+        },
+        {
+          "name": "LineWidth",
+          "type": "App::PropertyFloat",
+          "group": "Axis",
+          "desc": "The line width to draw this axis",
+          "line": 192
+        },
+        {
+          "name": "LineColor",
+          "type": "App::PropertyColor",
+          "group": "Axis",
+          "desc": "The color of this axis",
+          "line": 195
+        },
+        {
+          "name": "StartNumber",
+          "type": "App::PropertyInteger",
+          "group": "Axis",
+          "desc": "The number of the first axis",
+          "line": 198
+        },
+        {
+          "name": "FontName",
+          "type": "App::PropertyFont",
+          "group": "Axis",
+          "desc": "The font to use for texts",
+          "line": 201
+        },
+        {
+          "name": "FontSize",
+          "type": "App::PropertyLength",
+          "group": "Axis",
+          "desc": "The font size",
+          "line": 204
+        },
+        {
+          "name": "ShowLabel",
+          "type": "App::PropertyBool",
+          "group": "Axis",
+          "desc": "If true, show the labels",
+          "line": 207
+        },
+        {
+          "name": "LabelOffset",
+          "type": "App::PropertyPlacement",
+          "group": "Axis",
+          "desc": "A transformation to apply to each label",
+          "line": 209
+        }
+      ]
+    },
+    "_AxisSystem": {
+      "class": "_AxisSystem",
+      "file": "ArchAxisSystem.py",
+      "properties": [
+        {
+          "name": "Axes",
+          "type": "App::PropertyLinkList",
+          "group": "AxisSystem",
+          "desc": "The axes this system is made of",
+          "line": 64
+        },
+        {
+          "name": "Placement",
+          "type": "App::PropertyPlacement",
+          "group": "AxisSystem",
+          "desc": "The placement of this axis system",
+          "line": 66
+        }
+      ]
+    },
+    "BuildingPart": {
+      "class": "BuildingPart",
+      "file": "ArchBuildingPart.py",
+      "properties": [
+        {
+          "name": "Height",
+          "type": "App::PropertyLength",
+          "group": "BuildingPart",
+          "desc": "The height of this object",
+          "line": 217
+        },
+        {
+          "name": "HeightPropagate",
+          "type": "App::PropertyBool",
+          "group": "Children",
+          "desc": "If true, the height value propagates to contained objects if the height of those objects is set to 0",
+          "line": 219
+        },
+        {
+          "name": "LevelOffset",
+          "type": "App::PropertyDistance",
+          "group": "BuildingPart",
+          "desc": "The level of the (0,0,0) point of this level",
+          "line": 222
+        },
+        {
+          "name": "Area",
+          "type": "App::PropertyArea",
+          "group": "BuildingPart",
+          "desc": "The computed floor area of this floor",
+          "line": 224
+        },
+        {
+          "name": "Description",
+          "type": "App::PropertyString",
+          "group": "Component",
+          "desc": "An optional description for this component",
+          "line": 226
+        },
+        {
+          "name": "Tag",
+          "type": "App::PropertyString",
+          "group": "Component",
+          "desc": "An optional tag for this component",
+          "line": 228
+        },
+        {
+          "name": "Shape",
+          "type": "Part::PropertyPartShape",
+          "group": "BuildingPart",
+          "desc": "The shape of this object",
+          "line": 230
+        },
+        {
+          "name": "SavedInventor",
+          "type": "App::PropertyFileIncluded",
+          "group": "BuildingPart",
+          "desc": "This property stores an OpenInventor representation for this object",
+          "line": 232
+        },
+        {
+          "name": "OnlySolids",
+          "type": "App::PropertyBool",
+          "group": "BuildingPart",
+          "desc": "If true, only solids will be collected by this object when referenced from other files",
+          "line": 235
+        },
+        {
+          "name": "MaterialsTable",
+          "type": "App::PropertyMap",
+          "group": "BuildingPart",
+          "desc": "A MaterialName:SolidIndexesList map that relates material names with solid indexes to be used when referencing this object from other files",
+          "line": 238
+        }
+      ]
+    },
+    "ViewProviderBuildingPart": {
+      "class": "ViewProviderBuildingPart",
+      "file": "ArchBuildingPart.py",
+      "properties": [
+        {
+          "name": "LineWidth",
+          "type": "App::PropertyFloat",
+          "group": "BuildingPart",
+          "desc": "The line width of this object",
+          "line": 440
+        },
+        {
+          "name": "OverrideUnit",
+          "type": "App::PropertyString",
+          "group": "BuildingPart",
+          "desc": "An optional unit to express levels",
+          "line": 443
+        },
+        {
+          "name": "DisplayOffset",
+          "type": "App::PropertyPlacement",
+          "group": "BuildingPart",
+          "desc": "A transformation to apply to the level mark",
+          "line": 445
+        },
+        {
+          "name": "ShowLevel",
+          "type": "App::PropertyBool",
+          "group": "BuildingPart",
+          "desc": "If true, show the level",
+          "line": 448
+        },
+        {
+          "name": "ShowUnit",
+          "type": "App::PropertyBool",
+          "group": "BuildingPart",
+          "desc": "If true, show the unit on the level tag",
+          "line": 451
+        },
+        {
+          "name": "OriginOffset",
+          "type": "App::PropertyBool",
+          "group": "BuildingPart",
+          "desc": "If true, display offset will affect the origin mark too",
+          "line": 453
+        },
+        {
+          "name": "ShowLabel",
+          "type": "App::PropertyBool",
+          "group": "BuildingPart",
+          "desc": "If true, the object's label is displayed",
+          "line": 455
+        },
+        {
+          "name": "FontName",
+          "type": "App::PropertyFont",
+          "group": "BuildingPart",
+          "desc": "The font to be used for texts",
+          "line": 458
+        },
+        {
+          "name": "FontSize",
+          "type": "App::PropertyLength",
+          "group": "BuildingPart",
+          "desc": "The font size of texts",
+          "line": 461
+        },
+        {
+          "name": "DiffuseColor",
+          "type": "App::PropertyColorList",
+          "group": "BuildingPart",
+          "desc": "The individual face colors",
+          "line": 464
+        },
+        {
+          "name": "SetWorkingPlane",
+          "type": "App::PropertyBool",
+          "group": "Interaction",
+          "desc": "If true, when activated, the working plane will automatically adapt to this level",
+          "line": 468
+        },
+        {
+          "name": "AutoWorkingPlane",
+          "type": "App::PropertyBool",
+          "group": "Interaction",
+          "desc": "If set to True, the working plane will be kept on Auto mode",
+          "line": 471
+        },
+        {
+          "name": "ViewData",
+          "type": "App::PropertyFloatList",
+          "group": "Interaction",
+          "desc": "Camera position data associated with this object",
+          "line": 473
+        },
+        {
+          "name": "RestoreView",
+          "type": "App::PropertyBool",
+          "group": "Interaction",
+          "desc": "If set, the view stored in this object will be restored on double-click",
+          "line": 476
+        },
+        {
+          "name": "DoubleClickActivates",
+          "type": "App::PropertyBool",
+          "group": "Interaction",
+          "desc": "If True, double-clicking this object in the tree activates it",
+          "line": 478
+        },
+        {
+          "name": "SaveInventor",
+          "type": "App::PropertyBool",
+          "group": "Interaction",
+          "desc": "If this is enabled, the OpenInventor representation of this object will be saved in the FreeCAD file, allowing to reference it in other files in lightweight mode.",
+          "line": 482
+        },
+        {
+          "name": "SavedInventor",
+          "type": "App::PropertyFileIncluded",
+          "group": "Interaction",
+          "desc": "A slot to save the OpenInventor representation of this object, if enabled",
+          "line": 484
+        },
+        {
+          "name": "ChildrenOverride",
+          "type": "App::PropertyBool",
+          "group": "Children",
+          "desc": "If true, show the objects contained in this Building Part will adopt these line, color and transparency settings",
+          "line": 489
+        },
+        {
+          "name": "ChildrenLineWidth",
+          "type": "App::PropertyFloat",
+          "group": "Children",
+          "desc": "The line width of child objects",
+          "line": 491
+        },
+        {
+          "name": "ChildrenLineColor",
+          "type": "App::PropertyColor",
+          "group": "Children",
+          "desc": "The line color of child objects",
+          "line": 494
+        },
+        {
+          "name": "ChildrenShapeColor",
+          "type": "App::PropertyMaterial",
+          "group": "Children",
+          "desc": "The shape appearance of child objects",
+          "line": 497
+        },
+        {
+          "name": "ChildrenTransparency",
+          "type": "App::PropertyPercent",
+          "group": "Children",
+          "desc": "The transparency of child objects",
+          "line": 500
+        },
+        {
+          "name": "CutView",
+          "type": "App::PropertyBool",
+          "group": "Clip",
+          "desc": "Cut the view above this level",
+          "line": 505
+        },
+        {
+          "name": "CutMargin",
+          "type": "App::PropertyLength",
+          "group": "Clip",
+          "desc": "The distance between the level plane and the cut line",
+          "line": 507
+        },
+        {
+          "name": "AutoCutView",
+          "type": "App::PropertyBool",
+          "group": "Clip",
+          "desc": "Turn cutting on when activating this level",
+          "line": 510
+        },
+        {
+          "name": "AutogroupSize",
+          "type": "App::PropertyIntegerList",
+          "group": "AutoGroup",
+          "desc": "The capture box for newly created objects expressed as [XMin,YMin,ZMin,XMax,YMax,ZMax]",
+          "line": 514
+        },
+        {
+          "name": "AutogroupBox",
+          "type": "App::PropertyBool",
+          "group": "AutoGroup",
+          "desc": "Turns auto group box on/off",
+          "line": 516
+        },
+        {
+          "name": "AutogroupAutosize",
+          "type": "App::PropertyBool",
+          "group": "AutoGroup",
+          "desc": "Automatically set size from contents",
+          "line": 518
+        },
+        {
+          "name": "AutogroupMargin",
+          "type": "App::PropertyLength",
+          "group": "AutoGroup",
+          "desc": "A margin to use when autosize is turned on",
+          "line": 520
+        }
+      ]
+    },
+    "Component": {
+      "class": "Component",
+      "file": "ArchComponent.py",
+      "properties": [
+        {
+          "name": "Base",
+          "type": "App::PropertyLink",
+          "group": "Component",
+          "desc": "The base object this component is built upon",
+          "line": 197
+        },
+        {
+          "name": "CloneOf",
+          "type": "App::PropertyLink",
+          "group": "Component",
+          "desc": "The object this component is cloning",
+          "line": 199
+        },
+        {
+          "name": "Additions",
+          "type": "App::PropertyLinkList",
+          "group": "Component",
+          "desc": "Other shapes that are appended to this object",
+          "line": 201
+        },
+        {
+          "name": "Subtractions",
+          "type": "App::PropertyLinkList",
+          "group": "Component",
+          "desc": "Other shapes that are subtracted from this object",
+          "line": 203
+        },
+        {
+          "name": "Description",
+          "type": "App::PropertyString",
+          "group": "Component",
+          "desc": "An optional description for this component",
+          "line": 205
+        },
+        {
+          "name": "Tag",
+          "type": "App::PropertyString",
+          "group": "Component",
+          "desc": "An optional tag for this component",
+          "line": 207
+        },
+        {
+          "name": "StandardCode",
+          "type": "App::PropertyString",
+          "group": "Component",
+          "desc": "An optional standard (OmniClass, etc...) code for this component",
+          "line": 209
+        },
+        {
+          "name": "Material",
+          "type": "App::PropertyLink",
+          "group": "Component",
+          "desc": "A material for this object",
+          "line": 211
+        },
+        {
+          "name": "MoveBase",
+          "type": "App::PropertyBool",
+          "group": "Component",
+          "desc": "Specifies if moving this object moves its base instead",
+          "line": 217
+        },
+        {
+          "name": "MoveWithHost",
+          "type": "App::PropertyBool",
+          "group": "Component",
+          "desc": "Specifies if this object must move together when its host is moved",
+          "line": 220
+        },
+        {
+          "name": "VerticalArea",
+          "type": "App::PropertyArea",
+          "group": "Component",
+          "desc": "The area of all vertical faces of this object",
+          "line": 223
+        },
+        {
+          "name": "HorizontalArea",
+          "type": "App::PropertyArea",
+          "group": "Component",
+          "desc": "The area of the projection of this object onto the XY plane",
+          "line": 226
+        },
+        {
+          "name": "PerimeterLength",
+          "type": "App::PropertyLength",
+          "group": "Component",
+          "desc": "The perimeter length of the horizontal area",
+          "line": 229
+        },
+        {
+          "name": "HiRes",
+          "type": "App::PropertyLink",
+          "group": "Component",
+          "desc": "An optional higher-resolution mesh or shape for this object",
+          "line": 232
+        },
+        {
+          "name": "Axis",
+          "type": "App::PropertyLink",
+          "group": "Component",
+          "desc": "An optional axis or axis system on which this object should be duplicated",
+          "line": 234
+        }
+      ]
+    },
+    "ViewProviderComponent": {
+      "class": "ViewProviderComponent",
+      "file": "ArchComponent.py",
+      "properties": [
+        {
+          "name": "UseMaterialColor",
+          "type": "App::PropertyBool",
+          "group": "Component",
+          "desc": "Use the material color as this object's shape color, if available",
+          "line": 1173
+        }
+      ]
+    },
+    "CurtainWall": {
+      "class": "CurtainWall",
+      "file": "ArchCurtainWall.py",
+      "properties": [
+        {
+          "name": "Host",
+          "type": "App::PropertyLink",
+          "group": "CurtainWall",
+          "desc": "An optional host object for this curtain wall",
+          "line": 90
+        },
+        {
+          "name": "Height",
+          "type": "App::PropertyLength",
+          "group": "CurtainWall",
+          "desc": "The height of the curtain wall, if based on an edge",
+          "line": 92
+        },
+        {
+          "name": "VerticalMullionNumber",
+          "type": "App::PropertyInteger",
+          "group": "CurtainWall",
+          "desc": "The number of vertical mullions",
+          "line": 96
+        },
+        {
+          "name": "VerticalMullionAlignment",
+          "type": "App::PropertyBool",
+          "group": "CurtainWall",
+          "desc": "If the profile of the vertical mullions get aligned with the surface or not",
+          "line": 100
+        },
+        {
+          "name": "VerticalSections",
+          "type": "App::PropertyInteger",
+          "group": "CurtainWall",
+          "desc": "The number of vertical sections of this curtain wall",
+          "line": 103
+        },
+        {
+          "name": "VerticalMullionHeight",
+          "type": "App::PropertyLength",
+          "group": "CurtainWall",
+          "desc": "The height of the vertical mullions profile, if no profile is used",
+          "line": 111
+        },
+        {
+          "name": "VerticalMullionWidth",
+          "type": "App::PropertyLength",
+          "group": "CurtainWall",
+          "desc": "The width of the vertical mullions profile, if no profile is used",
+          "line": 115
+        },
+        {
+          "name": "VerticalMullionProfile",
+          "type": "App::PropertyLink",
+          "group": "CurtainWall",
+          "desc": "A profile for vertical mullions (disables vertical mullion size)",
+          "line": 119
+        },
+        {
+          "name": "HorizontalMullionNumber",
+          "type": "App::PropertyInteger",
+          "group": "CurtainWall",
+          "desc": "The number of horizontal mullions",
+          "line": 122
+        },
+        {
+          "name": "HorizontalMullionAlignment",
+          "type": "App::PropertyBool",
+          "group": "CurtainWall",
+          "desc": "If the profile of the horizontal mullions gets aligned with the surface or not",
+          "line": 126
+        },
+        {
+          "name": "HorizontalSections",
+          "type": "App::PropertyInteger",
+          "group": "CurtainWall",
+          "desc": "The number of horizontal sections of this curtain wall",
+          "line": 129
+        },
+        {
+          "name": "HorizontalMullionHeight",
+          "type": "App::PropertyLength",
+          "group": "CurtainWall",
+          "desc": "The height of the horizontal mullions profile, if no profile is used",
+          "line": 137
+        },
+        {
+          "name": "HorizontalMullionWidth",
+          "type": "App::PropertyLength",
+          "group": "CurtainWall",
+          "desc": "The width of the horizontal mullions profile, if no profile is used",
+          "line": 141
+        },
+        {
+          "name": "HorizontalMullionProfile",
+          "type": "App::PropertyLink",
+          "group": "CurtainWall",
+          "desc": "A profile for horizontal mullions (disables horizontal mullion size)",
+          "line": 145
+        },
+        {
+          "name": "DiagonalMullionNumber",
+          "type": "App::PropertyInteger",
+          "group": "CurtainWall",
+          "desc": "The number of diagonal mullions",
+          "line": 148
+        },
+        {
+          "name": "DiagonalMullionSize",
+          "type": "App::PropertyLength",
+          "group": "CurtainWall",
+          "desc": "The size of the diagonal mullions, if any, if no profile is used",
+          "line": 152
+        },
+        {
+          "name": "DiagonalMullionProfile",
+          "type": "App::PropertyLink",
+          "group": "CurtainWall",
+          "desc": "A profile for diagonal mullions, if any (disables horizontal mullion size)",
+          "line": 156
+        },
+        {
+          "name": "PanelNumber",
+          "type": "App::PropertyInteger",
+          "group": "CurtainWall",
+          "desc": "The number of panels",
+          "line": 159
+        },
+        {
+          "name": "PanelThickness",
+          "type": "App::PropertyLength",
+          "group": "CurtainWall",
+          "desc": "The thickness of the panels",
+          "line": 163
+        },
+        {
+          "name": "SwapHorizontalVertical",
+          "type": "App::PropertyBool",
+          "group": "CurtainWall",
+          "desc": "Swaps horizontal and vertical lines",
+          "line": 167
+        },
+        {
+          "name": "Refine",
+          "type": "App::PropertyBool",
+          "group": "CurtainWall",
+          "desc": "Perform subtractions between components so none overlap",
+          "line": 170
+        },
+        {
+          "name": "CenterProfiles",
+          "type": "App::PropertyBool",
+          "group": "CurtainWall",
+          "desc": "Centers the profile over the edges or not",
+          "line": 173
+        },
+        {
+          "name": "VerticalDirection",
+          "type": "App::PropertyVector",
+          "group": "CurtainWall",
+          "desc": "The vertical direction reference to be used by this object to deduce vertical/horizontal directions. Keep it close to the actual vertical direction of your curtain wall",
+          "line": 177
+        },
+        {
+          "name": "OverrideEdges",
+          "type": "App::PropertyStringList",
+          "group": "CurtainWall",
+          "desc": "Input are index numbers of edges of Base ArchSketch/Sketch geometries (in Edit mode).  Selected edges are used to create the shape of this Arch Curtain Wall (instead of using all edges by default).  [ENHANCED by ArchSketch] GUI 'Edit Curtain Wall' Tool is provided in external Add-on ('SketchArch') to let users to select the edges interactively.  'Toponaming-Tolerant' if ArchSketch is used in Base (and SketchArch Add-on is installed).  Warning : Not 'Toponaming-Tolerant' if just Sketch is used. Property is ignored if Base ArchSketch provided the selected edges.",
+          "line": 181
+        }
+      ]
+    },
+    "_Equipment": {
+      "class": "_Equipment",
+      "file": "ArchEquipment.py",
+      "properties": [
+        {
+          "name": "Model",
+          "type": "App::PropertyString",
+          "group": "Equipment",
+          "desc": "The model description of this equipment",
+          "line": 188
+        },
+        {
+          "name": "ProductURL",
+          "type": "App::PropertyString",
+          "group": "Equipment",
+          "desc": "The URL of the product page of this equipment",
+          "line": 190
+        },
+        {
+          "name": "StandardCode",
+          "type": "App::PropertyString",
+          "group": "Equipment",
+          "desc": "A standard code (MasterFormat, OmniClass,...)",
+          "line": 192
+        },
+        {
+          "name": "SnapPoints",
+          "type": "App::PropertyVectorList",
+          "group": "Equipment",
+          "desc": "Additional snap points for this equipment",
+          "line": 194
+        },
+        {
+          "name": "EquipmentPower",
+          "type": "App::PropertyFloat",
+          "group": "Equipment",
+          "desc": "The electric power needed by this equipment in Watts",
+          "line": 196
+        }
+      ]
+    },
+    "_Fence": {
+      "class": "_Fence",
+      "file": "ArchFence.py",
+      "properties": [
+        {
+          "name": "Section",
+          "type": "App::PropertyLink",
+          "group": "Fence",
+          "desc": "A single section of the fence",
+          "line": 61
+        },
+        {
+          "name": "Post",
+          "type": "App::PropertyLink",
+          "group": "Fence",
+          "desc": "A single fence post",
+          "line": 65
+        },
+        {
+          "name": "Path",
+          "type": "App::PropertyLink",
+          "group": "Fence",
+          "desc": "The Path the fence should follow",
+          "line": 69
+        },
+        {
+          "name": "NumberOfSections",
+          "type": "App::PropertyInteger",
+          "group": "Fence",
+          "desc": "The number of sections the fence is built of",
+          "line": 73
+        },
+        {
+          "name": "NumberOfPosts",
+          "type": "App::PropertyInteger",
+          "group": "Fence",
+          "desc": "The number of posts used to build the fence",
+          "line": 78
+        }
+      ]
+    },
+    "_ViewProviderFence": {
+      "class": "_ViewProviderFence",
+      "file": "ArchFence.py",
+      "properties": [
+        {
+          "name": "UseOriginalColors",
+          "type": "App::PropertyBool",
+          "group": "Fence",
+          "desc": "When true, the fence will be colored like the original post and section.",
+          "line": 262
+        }
+      ]
+    },
+    "_Frame": {
+      "class": "_Frame",
+      "file": "ArchFrame.py",
+      "properties": [
+        {
+          "name": "Profile",
+          "type": "App::PropertyLink",
+          "group": "Frame",
+          "desc": "The profile used to build this frame",
+          "line": 65
+        },
+        {
+          "name": "Align",
+          "type": "App::PropertyBool",
+          "group": "Frame",
+          "desc": "Specifies if the profile must be aligned with the extrusion wires",
+          "line": 67
+        },
+        {
+          "name": "Offset",
+          "type": "App::PropertyVectorDistance",
+          "group": "Frame",
+          "desc": "An offset vector between the base sketch and the frame",
+          "line": 70
+        },
+        {
+          "name": "BasePoint",
+          "type": "App::PropertyInteger",
+          "group": "Frame",
+          "desc": "Crossing point of the path on the profile.",
+          "line": 72
+        },
+        {
+          "name": "ProfilePlacement",
+          "type": "App::PropertyPlacement",
+          "group": "Frame",
+          "desc": "An optional additional placement to add to the profile before extruding it",
+          "line": 74
+        },
+        {
+          "name": "Rotation",
+          "type": "App::PropertyAngle",
+          "group": "Frame",
+          "desc": "The rotation of the profile around its extrusion axis",
+          "line": 76
+        },
+        {
+          "name": "Edges",
+          "type": "App::PropertyEnumeration",
+          "group": "Frame",
+          "desc": "The type of edges to consider",
+          "line": 78
+        },
+        {
+          "name": "Fuse",
+          "type": "App::PropertyBool",
+          "group": "Frame",
+          "desc": "If true, geometry is fused, otherwise a compound",
+          "line": 81
+        }
+      ]
+    },
+    "ArchGrid": {
+      "class": "ArchGrid",
+      "file": "ArchGrid.py",
+      "properties": [
+        {
+          "name": "Rows",
+          "type": "App::PropertyInteger",
+          "group": "Grid",
+          "desc": "The number of rows",
+          "line": 63
+        },
+        {
+          "name": "Columns",
+          "type": "App::PropertyInteger",
+          "group": "Grid",
+          "desc": "The number of columns",
+          "line": 65
+        },
+        {
+          "name": "RowSize",
+          "type": "App::PropertyFloatList",
+          "group": "Grid",
+          "desc": "The sizes for rows",
+          "line": 67
+        },
+        {
+          "name": "ColumnSize",
+          "type": "App::PropertyFloatList",
+          "group": "Grid",
+          "desc": "The sizes of columns",
+          "line": 69
+        },
+        {
+          "name": "Spans",
+          "type": "App::PropertyStringList",
+          "group": "Grid",
+          "desc": "The span ranges of cells that are merged together",
+          "line": 71
+        },
+        {
+          "name": "PointsOutput",
+          "type": "App::PropertyEnumeration",
+          "group": "Grid",
+          "desc": "The type of 3D points produced by this grid object",
+          "line": 73
+        },
+        {
+          "name": "Width",
+          "type": "App::PropertyLength",
+          "group": "Grid",
+          "desc": "The total width of this grid",
+          "line": 76
+        },
+        {
+          "name": "Height",
+          "type": "App::PropertyLength",
+          "group": "Grid",
+          "desc": "The total height of this grid",
+          "line": 78
+        },
+        {
+          "name": "AutoWidth",
+          "type": "App::PropertyLength",
+          "group": "Grid",
+          "desc": "Creates automatic column divisions (set to 0 to disable)",
+          "line": 80
+        },
+        {
+          "name": "AutoHeight",
+          "type": "App::PropertyLength",
+          "group": "Grid",
+          "desc": "Creates automatic row divisions (set to 0 to disable)",
+          "line": 82
+        },
+        {
+          "name": "Reorient",
+          "type": "App::PropertyBool",
+          "group": "Grid",
+          "desc": "When in edge midpoint mode, if this grid must reorient its children along edge normals or not",
+          "line": 84
+        },
+        {
+          "name": "HiddenFaces",
+          "type": "App::PropertyIntegerList",
+          "group": "Grid",
+          "desc": "The indices of faces to hide",
+          "line": 86
+        }
+      ]
+    },
+    "IfcRoot": {
+      "class": "IfcRoot",
+      "file": "ArchIFC.py",
+      "properties": [
+        {
+          "name": "IfcData",
+          "type": "App::PropertyMap",
+          "group": "IFC",
+          "desc": "IFC data",
+          "line": 67
+        },
+        {
+          "name": "IfcType",
+          "type": "App::PropertyEnumeration",
+          "group": "IFC",
+          "desc": "The type of this object",
+          "line": 70
+        },
+        {
+          "name": "IfcProperties",
+          "type": "App::PropertyMap",
+          "group": "IFC",
+          "desc": "IFC properties of this object",
+          "line": 74
+        }
+      ]
+    },
+    "_ArchMaterial": {
+      "class": "_ArchMaterial",
+      "file": "ArchMaterial.py",
+      "properties": [
+        {
+          "name": "Description",
+          "type": "App::PropertyString",
+          "group": "Material",
+          "desc": "A description for this material",
+          "line": 164
+        },
+        {
+          "name": "StandardCode",
+          "type": "App::PropertyString",
+          "group": "Material",
+          "desc": "A standard code (MasterFormat, OmniClass,...)",
+          "line": 166
+        },
+        {
+          "name": "ProductURL",
+          "type": "App::PropertyString",
+          "group": "Material",
+          "desc": "A URL where to find information about this material",
+          "line": 168
+        },
+        {
+          "name": "Transparency",
+          "type": "App::PropertyPercent",
+          "group": "Material",
+          "desc": "The transparency value of this material",
+          "line": 170
+        },
+        {
+          "name": "Color",
+          "type": "App::PropertyColor",
+          "group": "Material",
+          "desc": "The color of this material",
+          "line": 172
+        },
+        {
+          "name": "SectionColor",
+          "type": "App::PropertyColor",
+          "group": "Material",
+          "desc": "The color of this material when cut",
+          "line": 174
+        }
+      ]
+    },
+    "_ArchMultiMaterial": {
+      "class": "_ArchMultiMaterial",
+      "file": "ArchMaterial.py",
+      "properties": [
+        {
+          "name": "Description",
+          "type": "App::PropertyString",
+          "group": "Arch",
+          "desc": "A description for this material",
+          "line": 624
+        },
+        {
+          "name": "Names",
+          "type": "App::PropertyStringList",
+          "group": "Arch",
+          "desc": "The list of layer names",
+          "line": 625
+        },
+        {
+          "name": "Materials",
+          "type": "App::PropertyLinkList",
+          "group": "Arch",
+          "desc": "The list of layer materials",
+          "line": 626
+        },
+        {
+          "name": "Thicknesses",
+          "type": "App::PropertyFloatList",
+          "group": "Arch",
+          "desc": "The list of layer thicknesses",
+          "line": 627
+        }
+      ]
+    },
+    "_Panel": {
+      "class": "_Panel",
+      "file": "ArchPanel.py",
+      "properties": [
+        {
+          "name": "Length",
+          "type": "App::PropertyLength",
+          "group": "Panel",
+          "desc": "The length of this element, if not based on a profile",
+          "line": 73
+        },
+        {
+          "name": "Width",
+          "type": "App::PropertyLength",
+          "group": "Panel",
+          "desc": "The width of this element, if not based on a profile",
+          "line": 75
+        },
+        {
+          "name": "Thickness",
+          "type": "App::PropertyLength",
+          "group": "Panel",
+          "desc": "The thickness or extrusion depth of this element",
+          "line": 77
+        },
+        {
+          "name": "Sheets",
+          "type": "App::PropertyInteger",
+          "group": "Panel",
+          "desc": "The number of sheets to use",
+          "line": 79
+        },
+        {
+          "name": "Offset",
+          "type": "App::PropertyDistance",
+          "group": "Panel",
+          "desc": "The offset between this panel and its baseline",
+          "line": 82
+        },
+        {
+          "name": "WaveLength",
+          "type": "App::PropertyLength",
+          "group": "Panel",
+          "desc": "The length of waves for corrugated elements",
+          "line": 84
+        },
+        {
+          "name": "WaveHeight",
+          "type": "App::PropertyLength",
+          "group": "Panel",
+          "desc": "The height of waves for corrugated elements",
+          "line": 86
+        },
+        {
+          "name": "WaveOffset",
+          "type": "App::PropertyDistance",
+          "group": "Panel",
+          "desc": "The horizontal offset of waves for corrugated elements",
+          "line": 88
+        },
+        {
+          "name": "WaveDirection",
+          "type": "App::PropertyAngle",
+          "group": "Panel",
+          "desc": "The direction of waves for corrugated elements",
+          "line": 90
+        },
+        {
+          "name": "WaveType",
+          "type": "App::PropertyEnumeration",
+          "group": "Panel",
+          "desc": "The type of waves for corrugated elements",
+          "line": 92
+        },
+        {
+          "name": "WaveBottom",
+          "type": "App::PropertyBool",
+          "group": "Panel",
+          "desc": "If the wave also affects the bottom side or not",
+          "line": 95
+        },
+        {
+          "name": "Area",
+          "type": "App::PropertyArea",
+          "group": "Panel",
+          "desc": "The area of this panel",
+          "line": 97
+        },
+        {
+          "name": "FaceMaker",
+          "type": "App::PropertyEnumeration",
+          "group": "Panel",
+          "desc": "The facemaker type to use to build the profile of this object",
+          "line": 99
+        },
+        {
+          "name": "Normal",
+          "type": "App::PropertyVector",
+          "group": "Panel",
+          "desc": "The normal extrusion direction of this object (keep (0,0,0) for automatic normal)",
+          "line": 102
+        }
+      ]
+    },
+    "PanelCut": {
+      "class": "PanelCut",
+      "file": "ArchPanel.py",
+      "properties": [
+        {
+          "name": "Source",
+          "type": "App::PropertyLink",
+          "group": "PanelCut",
+          "desc": "The linked object",
+          "line": 504
+        },
+        {
+          "name": "TagText",
+          "type": "App::PropertyString",
+          "group": "PanelCut",
+          "desc": "The text to display. Can be %tag%, %label% or %description% to display the panel tag or label",
+          "line": 506
+        },
+        {
+          "name": "TagSize",
+          "type": "App::PropertyLength",
+          "group": "PanelCut",
+          "desc": "The size of the tag text",
+          "line": 509
+        },
+        {
+          "name": "TagPosition",
+          "type": "App::PropertyVector",
+          "group": "PanelCut",
+          "desc": "The position of the tag text. Keep (0,0,0) for center position",
+          "line": 512
+        },
+        {
+          "name": "TagRotation",
+          "type": "App::PropertyAngle",
+          "group": "PanelCut",
+          "desc": "The rotation of the tag text",
+          "line": 514
+        },
+        {
+          "name": "FontFile",
+          "type": "App::PropertyFile",
+          "group": "PanelCut",
+          "desc": "The font of the tag text",
+          "line": 516
+        },
+        {
+          "name": "MakeFace",
+          "type": "App::PropertyBool",
+          "group": "PanelCut",
+          "desc": "If True, the object is rendered as a face, if possible.",
+          "line": 519
+        },
+        {
+          "name": "AllowedAngles",
+          "type": "App::PropertyFloatList",
+          "group": "PanelCut",
+          "desc": "The allowed angles this object can be rotated to when placed on sheets",
+          "line": 521
+        },
+        {
+          "name": "CutOffset",
+          "type": "App::PropertyDistance",
+          "group": "PanelCut",
+          "desc": "An offset value to move the cut plane from the center point",
+          "line": 524
+        }
+      ]
+    },
+    "ViewProviderPanelCut": {
+      "class": "ViewProviderPanelCut",
+      "file": "ArchPanel.py",
+      "properties": [
+        {
+          "name": "Margin",
+          "type": "App::PropertyLength",
+          "group": "Arch",
+          "desc": "A margin inside the boundary",
+          "line": 697
+        },
+        {
+          "name": "ShowMargin",
+          "type": "App::PropertyBool",
+          "group": "Arch",
+          "desc": "Turns the display of the margin on/off",
+          "line": 699
+        }
+      ]
+    },
+    "PanelSheet": {
+      "class": "PanelSheet",
+      "file": "ArchPanel.py",
+      "properties": [
+        {
+          "name": "Group",
+          "type": "App::PropertyLinkList",
+          "group": "PanelSheet",
+          "desc": "The linked Panel cuts",
+          "line": 785
+        },
+        {
+          "name": "TagText",
+          "type": "App::PropertyString",
+          "group": "PanelSheet",
+          "desc": "The tag text to display",
+          "line": 787
+        },
+        {
+          "name": "TagSize",
+          "type": "App::PropertyLength",
+          "group": "PanelSheet",
+          "desc": "The size of the tag text",
+          "line": 789
+        },
+        {
+          "name": "TagPosition",
+          "type": "App::PropertyVector",
+          "group": "PanelSheet",
+          "desc": "The position of the tag text. Keep (0,0,0) for center position",
+          "line": 792
+        },
+        {
+          "name": "TagRotation",
+          "type": "App::PropertyAngle",
+          "group": "PanelSheet",
+          "desc": "The rotation of the tag text",
+          "line": 794
+        },
+        {
+          "name": "FontFile",
+          "type": "App::PropertyFile",
+          "group": "PanelSheet",
+          "desc": "The font of the tag text",
+          "line": 796
+        },
+        {
+          "name": "Width",
+          "type": "App::PropertyLength",
+          "group": "PanelSheet",
+          "desc": "The width of the sheet",
+          "line": 799
+        },
+        {
+          "name": "Height",
+          "type": "App::PropertyLength",
+          "group": "PanelSheet",
+          "desc": "The height of the sheet",
+          "line": 802
+        },
+        {
+          "name": "FillRatio",
+          "type": "App::PropertyPercent",
+          "group": "PanelSheet",
+          "desc": "The fill ratio of this sheet",
+          "line": 805
+        },
+        {
+          "name": "MakeFace",
+          "type": "App::PropertyBool",
+          "group": "PanelSheet",
+          "desc": "If True, the object is rendered as a face, if possible.",
+          "line": 808
+        },
+        {
+          "name": "GrainDirection",
+          "type": "App::PropertyAngle",
+          "group": "PanelSheet",
+          "desc": "Specifies an angle for the wood grain (Clockwise, 0 is North)",
+          "line": 810
+        },
+        {
+          "name": "Scale",
+          "type": "App::PropertyFloat",
+          "group": "PanelSheet",
+          "desc": "Specifies the scale applied to each panel view.",
+          "line": 812
+        },
+        {
+          "name": "Rotations",
+          "type": "App::PropertyFloatList",
+          "group": "PanelSheet",
+          "desc": "A list of possible rotations for the nester",
+          "line": 815
+        }
+      ]
+    },
+    "ViewProviderPanelSheet": {
+      "class": "ViewProviderPanelSheet",
+      "file": "ArchPanel.py",
+      "properties": [
+        {
+          "name": "Margin",
+          "type": "App::PropertyLength",
+          "group": "PanelSheet",
+          "desc": "A margin inside the boundary",
+          "line": 960
+        },
+        {
+          "name": "ShowMargin",
+          "type": "App::PropertyBool",
+          "group": "PanelSheet",
+          "desc": "Turns the display of the margin on/off",
+          "line": 962
+        },
+        {
+          "name": "ShowGrain",
+          "type": "App::PropertyBool",
+          "group": "PanelSheet",
+          "desc": "Turns the display of the wood grain texture on/off",
+          "line": 964
+        }
+      ]
+    },
+    "_ArchPipe": {
+      "class": "_ArchPipe",
+      "file": "ArchPipe.py",
+      "properties": [
+        {
+          "name": "Diameter",
+          "type": "App::PropertyLength",
+          "group": "Pipe",
+          "desc": "The diameter of this pipe, if not based on a profile",
+          "line": 74
+        },
+        {
+          "name": "Width",
+          "type": "App::PropertyLength",
+          "group": "Pipe",
+          "desc": "The width of this pipe, if not based on a profile",
+          "line": 76
+        },
+        {
+          "name": "Height",
+          "type": "App::PropertyLength",
+          "group": "Pipe",
+          "desc": "The height of this pipe, if not based on a profile",
+          "line": 79
+        },
+        {
+          "name": "Length",
+          "type": "App::PropertyLength",
+          "group": "Pipe",
+          "desc": "The length of this pipe, if not based on an edge",
+          "line": 82
+        },
+        {
+          "name": "Profile",
+          "type": "App::PropertyLink",
+          "group": "Pipe",
+          "desc": "An optional closed profile to base this pipe on",
+          "line": 84
+        },
+        {
+          "name": "OffsetStart",
+          "type": "App::PropertyLength",
+          "group": "Pipe",
+          "desc": "Offset from the start point",
+          "line": 86
+        },
+        {
+          "name": "OffsetEnd",
+          "type": "App::PropertyLength",
+          "group": "Pipe",
+          "desc": "Offset from the end point",
+          "line": 88
+        },
+        {
+          "name": "WallThickness",
+          "type": "App::PropertyLength",
+          "group": "Pipe",
+          "desc": "The wall thickness of this pipe, if not based on a profile",
+          "line": 90
+        },
+        {
+          "name": "ProfileType",
+          "type": "App::PropertyEnumeration",
+          "group": "Pipe",
+          "desc": "If not based on a profile, this controls the profile of this pipe",
+          "line": 92
+        }
+      ]
+    },
+    "_ArchPipeConnector": {
+      "class": "_ArchPipeConnector",
+      "file": "ArchPipe.py",
+      "properties": [
+        {
+          "name": "Radius",
+          "type": "App::PropertyLength",
+          "group": "PipeConnector",
+          "desc": "The curvature radius of this connector",
+          "line": 284
+        },
+        {
+          "name": "Pipes",
+          "type": "App::PropertyLinkList",
+          "group": "PipeConnector",
+          "desc": "The pipes linked by this connector",
+          "line": 286
+        },
+        {
+          "name": "ConnectorType",
+          "type": "App::PropertyEnumeration",
+          "group": "PipeConnector",
+          "desc": "The type of this connector",
+          "line": 288
+        }
+      ]
+    },
+    "_Precast": {
+      "class": "_Precast",
+      "file": "ArchPrecast.py",
+      "properties": [
+        {
+          "name": "Length",
+          "type": "App::PropertyDistance",
+          "group": "Structure",
+          "desc": "The length of this element",
+          "line": 64
+        },
+        {
+          "name": "Width",
+          "type": "App::PropertyDistance",
+          "group": "Structure",
+          "desc": "The width of this element",
+          "line": 66
+        },
+        {
+          "name": "Height",
+          "type": "App::PropertyDistance",
+          "group": "Structure",
+          "desc": "The height of this element",
+          "line": 68
+        },
+        {
+          "name": "Nodes",
+          "type": "App::PropertyVectorList",
+          "group": "Structure",
+          "desc": "The structural nodes of this element",
+          "line": 70
+        }
+      ]
+    },
+    "_PrecastBeam": {
+      "class": "_PrecastBeam",
+      "file": "ArchPrecast.py",
+      "properties": [
+        {
+          "name": "Chamfer",
+          "type": "App::PropertyDistance",
+          "group": "Beam",
+          "desc": "The size of the chamfer of this element",
+          "line": 98
+        },
+        {
+          "name": "DentLength",
+          "type": "App::PropertyDistance",
+          "group": "Beam",
+          "desc": "The dent length of this element",
+          "line": 100
+        },
+        {
+          "name": "DentHeight",
+          "type": "App::PropertyDistance",
+          "group": "Beam",
+          "desc": "The dent height of this element",
+          "line": 102
+        },
+        {
+          "name": "Dents",
+          "type": "App::PropertyStringList",
+          "group": "Beam",
+          "desc": "The dents of this element",
+          "line": 104
+        }
+      ]
+    },
+    "_PrecastIbeam": {
+      "class": "_PrecastIbeam",
+      "file": "ArchPrecast.py",
+      "properties": [
+        {
+          "name": "Chamfer",
+          "type": "App::PropertyDistance",
+          "group": "Beam",
+          "desc": "The chamfer length of this element",
+          "line": 220
+        },
+        {
+          "name": "BeamBase",
+          "type": "App::PropertyDistance",
+          "group": "Beam",
+          "desc": "The base length of this element",
+          "line": 222
+        }
+      ]
+    },
+    "_PrecastPillar": {
+      "class": "_PrecastPillar",
+      "file": "ArchPrecast.py",
+      "properties": [
+        {
+          "name": "Chamfer",
+          "type": "App::PropertyDistance",
+          "group": "Column",
+          "desc": "The size of the chamfer of this element",
+          "line": 286
+        },
+        {
+          "name": "GrooveDepth",
+          "type": "App::PropertyDistance",
+          "group": "Column",
+          "desc": "The groove depth of this element",
+          "line": 288
+        },
+        {
+          "name": "GrooveHeight",
+          "type": "App::PropertyDistance",
+          "group": "Column",
+          "desc": "The groove height of this element",
+          "line": 290
+        },
+        {
+          "name": "GrooveSpacing",
+          "type": "App::PropertyDistance",
+          "group": "Column",
+          "desc": "The spacing between the grooves of this element",
+          "line": 292
+        },
+        {
+          "name": "GrooveNumber",
+          "type": "App::PropertyInteger",
+          "group": "Column",
+          "desc": "The number of grooves of this element",
+          "line": 294
+        },
+        {
+          "name": "Dents",
+          "type": "App::PropertyStringList",
+          "group": "Column",
+          "desc": "The dents of this element",
+          "line": 296
+        }
+      ]
+    },
+    "_PrecastPanel": {
+      "class": "_PrecastPanel",
+      "file": "ArchPrecast.py",
+      "properties": [
+        {
+          "name": "Chamfer",
+          "type": "App::PropertyDistance",
+          "group": "Panel",
+          "desc": "The size of the chamfer of this element",
+          "line": 427
+        },
+        {
+          "name": "DentWidth",
+          "type": "App::PropertyDistance",
+          "group": "Panel",
+          "desc": "The dent width of this element",
+          "line": 429
+        },
+        {
+          "name": "DentHeight",
+          "type": "App::PropertyDistance",
+          "group": "Panel",
+          "desc": "The dent height of this element",
+          "line": 431
+        }
+      ]
+    },
+    "_PrecastSlab": {
+      "class": "_PrecastSlab",
+      "file": "ArchPrecast.py",
+      "properties": [
+        {
+          "name": "SlabType",
+          "type": "App::PropertyEnumeration",
+          "group": "Slab",
+          "desc": "The type of this slab",
+          "line": 538
+        },
+        {
+          "name": "SlabBase",
+          "type": "App::PropertyDistance",
+          "group": "Slab",
+          "desc": "The size of the base of this element",
+          "line": 541
+        },
+        {
+          "name": "HoleNumber",
+          "type": "App::PropertyInteger",
+          "group": "Slab",
+          "desc": "The number of holes in this element",
+          "line": 543
+        },
+        {
+          "name": "HoleMajor",
+          "type": "App::PropertyDistance",
+          "group": "Slab",
+          "desc": "The major radius of the holes of this element",
+          "line": 545
+        },
+        {
+          "name": "HoleMinor",
+          "type": "App::PropertyDistance",
+          "group": "Slab",
+          "desc": "The minor radius of the holes of this element",
+          "line": 547
+        },
+        {
+          "name": "HoleSpacing",
+          "type": "App::PropertyDistance",
+          "group": "Slab",
+          "desc": "The spacing between the holes of this element",
+          "line": 549
+        }
+      ]
+    },
+    "_PrecastStairs": {
+      "class": "_PrecastStairs",
+      "file": "ArchPrecast.py",
+      "properties": [
+        {
+          "name": "DownLength",
+          "type": "App::PropertyDistance",
+          "group": "Stairs",
+          "desc": "The length of the down floor of this element",
+          "line": 649
+        },
+        {
+          "name": "RiserNumber",
+          "type": "App::PropertyInteger",
+          "group": "Stairs",
+          "desc": "The number of risers in this element",
+          "line": 651
+        },
+        {
+          "name": "Riser",
+          "type": "App::PropertyDistance",
+          "group": "Stairs",
+          "desc": "The riser height of this element",
+          "line": 653
+        },
+        {
+          "name": "Tread",
+          "type": "App::PropertyDistance",
+          "group": "Stairs",
+          "desc": "The tread depth of this element",
+          "line": 655
+        }
+      ]
+    },
+    "_ProfileC": {
+      "class": "_ProfileC",
+      "file": "ArchProfile.py",
+      "properties": [
+        {
+          "name": "OutDiameter",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Outside Diameter",
+          "line": 125
+        },
+        {
+          "name": "Thickness",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Wall thickness",
+          "line": 126
+        }
+      ]
+    },
+    "_ProfileH": {
+      "class": "_ProfileH",
+      "file": "ArchProfile.py",
+      "properties": [
+        {
+          "name": "Width",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Width of the beam",
+          "line": 150
+        },
+        {
+          "name": "Height",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Height of the beam",
+          "line": 151
+        },
+        {
+          "name": "WebThickness",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Thickness of the web",
+          "line": 152
+        },
+        {
+          "name": "FlangeThickness",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Thickness of the flanges",
+          "line": 153
+        }
+      ]
+    },
+    "_ProfileR": {
+      "class": "_ProfileR",
+      "file": "ArchProfile.py",
+      "properties": [
+        {
+          "name": "Width",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Width of the beam",
+          "line": 184
+        },
+        {
+          "name": "Height",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Height of the beam",
+          "line": 185
+        }
+      ]
+    },
+    "_ProfileRH": {
+      "class": "_ProfileRH",
+      "file": "ArchProfile.py",
+      "properties": [
+        {
+          "name": "Width",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Width of the beam",
+          "line": 208
+        },
+        {
+          "name": "Height",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Height of the beam",
+          "line": 209
+        },
+        {
+          "name": "Thickness",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Thickness of the sides",
+          "line": 210
+        }
+      ]
+    },
+    "_ProfileU": {
+      "class": "_ProfileU",
+      "file": "ArchProfile.py",
+      "properties": [
+        {
+          "name": "Width",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Width of the beam",
+          "line": 241
+        },
+        {
+          "name": "Height",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Height of the beam",
+          "line": 242
+        },
+        {
+          "name": "WebThickness",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Thickness of the webs",
+          "line": 243
+        },
+        {
+          "name": "FlangeThickness",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Thickness of the flange",
+          "line": 244
+        }
+      ]
+    },
+    "_ProfileL": {
+      "class": "_ProfileL",
+      "file": "ArchProfile.py",
+      "properties": [
+        {
+          "name": "Width",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Width of the beam",
+          "line": 271
+        },
+        {
+          "name": "Height",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Height of the beam",
+          "line": 272
+        },
+        {
+          "name": "Thickness",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Thickness of the legs",
+          "line": 273
+        }
+      ]
+    },
+    "_ProfileT": {
+      "class": "_ProfileT",
+      "file": "ArchProfile.py",
+      "properties": [
+        {
+          "name": "Width",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Width of the beam",
+          "line": 298
+        },
+        {
+          "name": "Height",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Height of the beam",
+          "line": 299
+        },
+        {
+          "name": "WebThickness",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Thickness of the web",
+          "line": 300
+        },
+        {
+          "name": "FlangeThickness",
+          "type": "App::PropertyLength",
+          "group": "Draft",
+          "desc": "Thickness of the flanges",
+          "line": 301
+        }
+      ]
+    },
+    "_Rebar": {
+      "class": "_Rebar",
+      "file": "ArchRebar.py",
+      "properties": [
+        {
+          "name": "Diameter",
+          "type": "App::PropertyLength",
+          "group": "Rebar",
+          "desc": "The diameter of the bar",
+          "line": 73
+        },
+        {
+          "name": "OffsetStart",
+          "type": "App::PropertyDistance",
+          "group": "Rebar",
+          "desc": "The distance between the border of the beam and the first bar (concrete cover).",
+          "line": 75
+        },
+        {
+          "name": "OffsetEnd",
+          "type": "App::PropertyDistance",
+          "group": "Rebar",
+          "desc": "The distance between the border of the beam and the last bar (concrete cover).",
+          "line": 77
+        },
+        {
+          "name": "Amount",
+          "type": "App::PropertyInteger",
+          "group": "Rebar",
+          "desc": "The amount of bars",
+          "line": 79
+        },
+        {
+          "name": "Spacing",
+          "type": "App::PropertyLength",
+          "group": "Rebar",
+          "desc": "The spacing between the bars",
+          "line": 81
+        },
+        {
+          "name": "Distance",
+          "type": "App::PropertyLength",
+          "group": "Rebar",
+          "desc": "The total distance to span the rebars over. Keep 0 to automatically use the host shape size.",
+          "line": 84
+        },
+        {
+          "name": "Direction",
+          "type": "App::PropertyVector",
+          "group": "Rebar",
+          "desc": "The direction to use to spread the bars. Keep (0,0,0) for automatic direction.",
+          "line": 86
+        },
+        {
+          "name": "Rounding",
+          "type": "App::PropertyFloat",
+          "group": "Rebar",
+          "desc": "The fillet to apply to the angle of the base profile. This value is multiplied by the bar diameter.",
+          "line": 88
+        },
+        {
+          "name": "PlacementList",
+          "type": "App::PropertyPlacementList",
+          "group": "Rebar",
+          "desc": "List of placement of all the bars",
+          "line": 90
+        },
+        {
+          "name": "Host",
+          "type": "App::PropertyLink",
+          "group": "Rebar",
+          "desc": "The structure object that hosts this rebar",
+          "line": 92
+        },
+        {
+          "name": "CustomSpacing",
+          "type": "App::PropertyString",
+          "group": "Rebar",
+          "desc": "The custom spacing of rebar",
+          "line": 94
+        },
+        {
+          "name": "Length",
+          "type": "App::PropertyDistance",
+          "group": "Rebar",
+          "desc": "Length of a single rebar",
+          "line": 96
+        },
+        {
+          "name": "TotalLength",
+          "type": "App::PropertyDistance",
+          "group": "Rebar",
+          "desc": "Total length of all rebars",
+          "line": 99
+        },
+        {
+          "name": "Mark",
+          "type": "App::PropertyString",
+          "group": "Rebar",
+          "desc": "The rebar mark",
+          "line": 102
+        }
+      ]
+    },
+    "_ViewProviderRebar": {
+      "class": "_ViewProviderRebar",
+      "file": "ArchRebar.py",
+      "properties": [
+        {
+          "name": "RebarShape",
+          "type": "App::PropertyString",
+          "group": "Rebar",
+          "desc": "Shape of rebar",
+          "line": 400
+        }
+      ]
+    },
+    "ArchReference": {
+      "class": "ArchReference",
+      "file": "ArchReference.py",
+      "properties": [
+        {
+          "name": "File",
+          "type": "App::PropertyFile",
+          "group": "Reference",
+          "desc": "",
+          "line": 72
+        },
+        {
+          "name": "Part",
+          "type": "App::PropertyString",
+          "group": "Reference",
+          "desc": "",
+          "line": 75
+        },
+        {
+          "name": "ReferenceMode",
+          "type": "App::PropertyEnumeration",
+          "group": "Reference",
+          "desc": "",
+          "line": 78
+        },
+        {
+          "name": "FuseArch",
+          "type": "App::PropertyBool",
+          "group": "Reference",
+          "desc": "",
+          "line": 88
+        }
+      ]
+    },
+    "ViewProviderArchReference": {
+      "class": "ViewProviderArchReference",
+      "file": "ArchReference.py",
+      "properties": [
+        {
+          "name": "TimeStamp",
+          "type": "App::PropertyFloat",
+          "group": "Reference",
+          "desc": "",
+          "line": 525
+        },
+        {
+          "name": "UpdateColors",
+          "type": "App::PropertyBool",
+          "group": "Reference",
+          "desc": "",
+          "line": 529
+        }
+      ]
+    },
+    "_Roof": {
+      "class": "_Roof",
+      "file": "ArchRoof.py",
+      "properties": [
+        {
+          "name": "Angles",
+          "type": "App::PropertyFloatList",
+          "group": "Roof",
+          "desc": "The list of angles of the roof segments",
+          "line": 159
+        },
+        {
+          "name": "Runs",
+          "type": "App::PropertyFloatList",
+          "group": "Roof",
+          "desc": "The list of horizontal length projections of the roof segments",
+          "line": 164
+        },
+        {
+          "name": "IdRel",
+          "type": "App::PropertyIntegerList",
+          "group": "Roof",
+          "desc": "The list of IDs of the relative profiles of the roof segments",
+          "line": 169
+        },
+        {
+          "name": "Thickness",
+          "type": "App::PropertyFloatList",
+          "group": "Roof",
+          "desc": "The list of thicknesses of the roof segments",
+          "line": 174
+        },
+        {
+          "name": "Overhang",
+          "type": "App::PropertyFloatList",
+          "group": "Roof",
+          "desc": "The list of overhangs of the roof segments",
+          "line": 179
+        },
+        {
+          "name": "Heights",
+          "type": "App::PropertyFloatList",
+          "group": "Roof",
+          "desc": "The list of calculated heights of the roof segments",
+          "line": 184
+        },
+        {
+          "name": "Face",
+          "type": "App::PropertyInteger",
+          "group": "Roof",
+          "desc": "The face number of the base object used to build the roof",
+          "line": 189
+        },
+        {
+          "name": "RidgeLength",
+          "type": "App::PropertyLength",
+          "group": "Roof",
+          "desc": "The total length of the ridges and hips of the roof",
+          "line": 194
+        },
+        {
+          "name": "BorderLength",
+          "type": "App::PropertyLength",
+          "group": "Roof",
+          "desc": "The total length of the borders of the roof",
+          "line": 200
+        },
+        {
+          "name": "Flip",
+          "type": "App::PropertyBool",
+          "group": "Roof",
+          "desc": "Specifies if the direction of the roof should be flipped",
+          "line": 206
+        },
+        {
+          "name": "Subvolume",
+          "type": "App::PropertyLink",
+          "group": "Roof",
+          "desc": "An optional object that defines a volume to be subtracted from walls. If field is set - it has a priority over auto-generated subvolume",
+          "line": 211
+        }
+      ]
+    },
+    "_ArchSchedule": {
+      "class": "_ArchSchedule",
+      "file": "ArchSchedule.py",
+      "properties": [
+        {
+          "name": "Description",
+          "type": "App::PropertyStringList",
+          "group": "Arch",
+          "desc": "The description column",
+          "line": 104
+        },
+        {
+          "name": "Value",
+          "type": "App::PropertyStringList",
+          "group": "Arch",
+          "desc": "The values column",
+          "line": 106
+        },
+        {
+          "name": "Unit",
+          "type": "App::PropertyStringList",
+          "group": "Arch",
+          "desc": "The units column",
+          "line": 108
+        },
+        {
+          "name": "Objects",
+          "type": "App::PropertyStringList",
+          "group": "Arch",
+          "desc": "The objects column",
+          "line": 110
+        },
+        {
+          "name": "Filter",
+          "type": "App::PropertyStringList",
+          "group": "Arch",
+          "desc": "The filter column",
+          "line": 112
+        },
+        {
+          "name": "CreateSpreadsheet",
+          "type": "App::PropertyBool",
+          "group": "Arch",
+          "desc": "If True, a spreadsheet containing the results is recreated when needed",
+          "line": 114
+        },
+        {
+          "name": "DetailedResults",
+          "type": "App::PropertyBool",
+          "group": "Arch",
+          "desc": "If True, additional lines with each individual object are added to the results",
+          "line": 116
+        },
+        {
+          "name": "AutoUpdate",
+          "type": "App::PropertyBool",
+          "group": "Arch",
+          "desc": "If True, the schedule and the associated spreadsheet are updated whenever the document is recomputed",
+          "line": 118
+        },
+        {
+          "name": "Schedule",
+          "type": "App::PropertyLink",
+          "group": "Arch",
+          "desc": "The BIM Schedule that uses this spreadsheet",
+          "line": 126
+        }
+      ]
+    },
+    "_SectionPlane": {
+      "class": "_SectionPlane",
+      "file": "ArchSectionPlane.py",
+      "properties": [
+        {
+          "name": "Placement",
+          "type": "App::PropertyPlacement",
+          "group": "SectionPlane",
+          "desc": "The placement of this object",
+          "line": 812
+        },
+        {
+          "name": "Shape",
+          "type": "Part::PropertyPartShape",
+          "group": "SectionPlane",
+          "desc": "The shape of this object",
+          "line": 814
+        },
+        {
+          "name": "Objects",
+          "type": "App::PropertyLinkList",
+          "group": "SectionPlane",
+          "desc": "The objects that must be considered by this section plane. Empty means the whole document.",
+          "line": 816
+        },
+        {
+          "name": "OnlySolids",
+          "type": "App::PropertyBool",
+          "group": "SectionPlane",
+          "desc": "If false, non-solids will be cut too, with possible wrong results.",
+          "line": 818
+        },
+        {
+          "name": "Clip",
+          "type": "App::PropertyBool",
+          "group": "SectionPlane",
+          "desc": "If True, resulting views will be clipped to the section plane area.",
+          "line": 821
+        },
+        {
+          "name": "UseMaterialColorForFill",
+          "type": "App::PropertyBool",
+          "group": "SectionPlane",
+          "desc": "If true, the color of the objects material will be used to fill cut areas.",
+          "line": 823
+        },
+        {
+          "name": "Depth",
+          "type": "App::PropertyLength",
+          "group": "SectionPlane",
+          "desc": "Geometry further than this value will be cut off. Keep zero for unlimited.",
+          "line": 826
+        }
+      ]
+    },
+    "_ViewProviderSectionPlane": {
+      "class": "_ViewProviderSectionPlane",
+      "file": "ArchSectionPlane.py",
+      "properties": [
+        {
+          "name": "DisplayLength",
+          "type": "App::PropertyLength",
+          "group": "SectionPlane",
+          "desc": "The display length of this section plane",
+          "line": 885
+        },
+        {
+          "name": "DisplayHeight",
+          "type": "App::PropertyLength",
+          "group": "SectionPlane",
+          "desc": "The display height of this section plane",
+          "line": 891
+        },
+        {
+          "name": "ArrowSize",
+          "type": "App::PropertyLength",
+          "group": "SectionPlane",
+          "desc": "The size of the arrows of this section plane",
+          "line": 897
+        },
+        {
+          "name": "Transparency",
+          "type": "App::PropertyPercent",
+          "group": "SectionPlane",
+          "desc": "The transparency of this object",
+          "line": 900
+        },
+        {
+          "name": "LineWidth",
+          "type": "App::PropertyFloat",
+          "group": "SectionPlane",
+          "desc": "The line width of this object",
+          "line": 903
+        },
+        {
+          "name": "CutDistance",
+          "type": "App::PropertyLength",
+          "group": "SectionPlane",
+          "desc": "Show the cut in the 3D view",
+          "line": 906
+        },
+        {
+          "name": "LineColor",
+          "type": "App::PropertyColor",
+          "group": "SectionPlane",
+          "desc": "The color of this object",
+          "line": 908
+        },
+        {
+          "name": "CutView",
+          "type": "App::PropertyBool",
+          "group": "SectionPlane",
+          "desc": "Show the cut in the 3D view",
+          "line": 911
+        },
+        {
+          "name": "CutMargin",
+          "type": "App::PropertyLength",
+          "group": "SectionPlane",
+          "desc": "The distance between the cut plane and the actual view cut (keep this a very small value but not zero)",
+          "line": 913
+        },
+        {
+          "name": "ShowLabel",
+          "type": "App::PropertyBool",
+          "group": "SectionPlane",
+          "desc": "Show the label in the 3D view",
+          "line": 916
+        },
+        {
+          "name": "FontName",
+          "type": "App::PropertyFont",
+          "group": "SectionPlane",
+          "desc": "The name of the font",
+          "line": 918
+        },
+        {
+          "name": "FontSize",
+          "type": "App::PropertyLength",
+          "group": "SectionPlane",
+          "desc": "The size of the text font",
+          "line": 921
+        }
+      ]
+    },
+    "_Site": {
+      "class": "_Site",
+      "file": "ArchSite.py",
+      "properties": [
+        {
+          "name": "Terrain",
+          "type": "App::PropertyLink",
+          "group": "Site",
+          "desc": "The base terrain of this site",
+          "line": 521
+        },
+        {
+          "name": "Address",
+          "type": "App::PropertyString",
+          "group": "Site",
+          "desc": "The street and house number of this site, with postal box or apartment number if needed",
+          "line": 523
+        },
+        {
+          "name": "PostalCode",
+          "type": "App::PropertyString",
+          "group": "Site",
+          "desc": "The postal or zip code of this site",
+          "line": 525
+        },
+        {
+          "name": "City",
+          "type": "App::PropertyString",
+          "group": "Site",
+          "desc": "The city of this site",
+          "line": 527
+        },
+        {
+          "name": "Region",
+          "type": "App::PropertyString",
+          "group": "Site",
+          "desc": "The region, province or county of this site",
+          "line": 529
+        },
+        {
+          "name": "Country",
+          "type": "App::PropertyString",
+          "group": "Site",
+          "desc": "The country of this site",
+          "line": 531
+        },
+        {
+          "name": "Latitude",
+          "type": "App::PropertyFloat",
+          "group": "Site",
+          "desc": "The latitude of this site",
+          "line": 533
+        },
+        {
+          "name": "Longitude",
+          "type": "App::PropertyFloat",
+          "group": "Site",
+          "desc": "The latitude of this site",
+          "line": 535
+        },
+        {
+          "name": "Declination",
+          "type": "App::PropertyAngle",
+          "group": "Site",
+          "desc": "Angle between the true North and the North direction in this document",
+          "line": 537
+        },
+        {
+          "name": "Elevation",
+          "type": "App::PropertyLength",
+          "group": "Site",
+          "desc": "The elevation of level 0 of this site",
+          "line": 542
+        },
+        {
+          "name": "Url",
+          "type": "App::PropertyString",
+          "group": "Site",
+          "desc": "A URL that shows this site in a mapping website",
+          "line": 544
+        },
+        {
+          "name": "Additions",
+          "type": "App::PropertyLinkList",
+          "group": "Site",
+          "desc": "Other shapes that are appended to this object",
+          "line": 546
+        },
+        {
+          "name": "Subtractions",
+          "type": "App::PropertyLinkList",
+          "group": "Site",
+          "desc": "Other shapes that are subtracted from this object",
+          "line": 548
+        },
+        {
+          "name": "ProjectedArea",
+          "type": "App::PropertyArea",
+          "group": "Site",
+          "desc": "The area of the projection of this object onto the XY plane",
+          "line": 550
+        },
+        {
+          "name": "Perimeter",
+          "type": "App::PropertyLength",
+          "group": "Site",
+          "desc": "The perimeter length of the projected area",
+          "line": 552
+        },
+        {
+          "name": "AdditionVolume",
+          "type": "App::PropertyVolume",
+          "group": "Site",
+          "desc": "The volume of earth to be added to this terrain",
+          "line": 554
+        },
+        {
+          "name": "SubtractionVolume",
+          "type": "App::PropertyVolume",
+          "group": "Site",
+          "desc": "The volume of earth to be removed from this terrain",
+          "line": 556
+        },
+        {
+          "name": "ExtrusionVector",
+          "type": "App::PropertyVector",
+          "group": "Site",
+          "desc": "An extrusion vector to use when performing boolean operations",
+          "line": 558
+        },
+        {
+          "name": "RemoveSplitter",
+          "type": "App::PropertyBool",
+          "group": "Site",
+          "desc": "Remove splitters from the resulting shape",
+          "line": 561
+        },
+        {
+          "name": "OriginOffset",
+          "type": "App::PropertyVector",
+          "group": "Site",
+          "desc": "An optional offset between the model (0,0,0) origin and the point indicated by the geocoordinates",
+          "line": 563
+        },
+        {
+          "name": "IfcType",
+          "type": "App::PropertyEnumeration",
+          "group": "IFC",
+          "desc": "The type of this object",
+          "line": 567
+        },
+        {
+          "name": "TimeZone",
+          "type": "App::PropertyInteger",
+          "group": "Site",
+          "desc": "The time zone where this site is located",
+          "line": 571
+        },
+        {
+          "name": "EPWFile",
+          "type": "App::PropertyFileIncluded",
+          "group": "Site",
+          "desc": "An optional EPW File for the location of this site. Refer to the Site documentation to know how to obtain one",
+          "line": 573
+        }
+      ]
+    },
+    "_ViewProviderSite": {
+      "class": "_ViewProviderSite",
+      "file": "ArchSite.py",
+      "properties": [
+        {
+          "name": "WindRose",
+          "type": "App::PropertyBool",
+          "group": "Site",
+          "desc": "Show wind rose diagram or not. Uses solar diagram scale. Needs Ladybug module",
+          "line": 777
+        },
+        {
+          "name": "SolarDiagram",
+          "type": "App::PropertyBool",
+          "group": "Site",
+          "desc": "Show solar diagram or not",
+          "line": 779
+        },
+        {
+          "name": "SolarDiagramScale",
+          "type": "App::PropertyFloat",
+          "group": "Site",
+          "desc": "The scale of the solar diagram",
+          "line": 781
+        },
+        {
+          "name": "SolarDiagramPosition",
+          "type": "App::PropertyVector",
+          "group": "Site",
+          "desc": "The position of the solar diagram",
+          "line": 784
+        },
+        {
+          "name": "SolarDiagramColor",
+          "type": "App::PropertyColor",
+          "group": "Site",
+          "desc": "The color of the solar diagram",
+          "line": 786
+        },
+        {
+          "name": "Orientation",
+          "type": "App::PropertyEnumeration",
+          "group": "Site",
+          "desc": "When set to 'True North' the whole geometry will be rotated to match the true north of this site",
+          "line": 789
+        },
+        {
+          "name": "Compass",
+          "type": "App::PropertyBool",
+          "group": "Compass",
+          "desc": "Show compass or not",
+          "line": 794
+        },
+        {
+          "name": "CompassRotation",
+          "type": "App::PropertyAngle",
+          "group": "Compass",
+          "desc": "The rotation of the Compass relative to the Site",
+          "line": 796
+        },
+        {
+          "name": "CompassPosition",
+          "type": "App::PropertyVector",
+          "group": "Compass",
+          "desc": "The position of the Compass relative to the Site placement",
+          "line": 798
+        },
+        {
+          "name": "UpdateDeclination",
+          "type": "App::PropertyBool",
+          "group": "Compass",
+          "desc": "Update the Declination value based on the compass rotation",
+          "line": 800
+        }
+      ]
+    },
+    "_Space": {
+      "class": "_Space",
+      "file": "ArchSpace.py",
+      "properties": [
+        {
+          "name": "Boundaries",
+          "type": "App::PropertyLinkSubList",
+          "group": "Space",
+          "desc": "The objects that make the boundaries of this space object",
+          "line": 220
+        },
+        {
+          "name": "Area",
+          "type": "App::PropertyArea",
+          "group": "Space",
+          "desc": "Identical to Horizontal Area",
+          "line": 222
+        },
+        {
+          "name": "FinishFloor",
+          "type": "App::PropertyString",
+          "group": "Space",
+          "desc": "The finishing of the floor of this space",
+          "line": 224
+        },
+        {
+          "name": "FinishWalls",
+          "type": "App::PropertyString",
+          "group": "Space",
+          "desc": "The finishing of the walls of this space",
+          "line": 226
+        },
+        {
+          "name": "FinishCeiling",
+          "type": "App::PropertyString",
+          "group": "Space",
+          "desc": "The finishing of the ceiling of this space",
+          "line": 228
+        },
+        {
+          "name": "Group",
+          "type": "App::PropertyLinkList",
+          "group": "Space",
+          "desc": "Objects that are included inside this space, such as furniture",
+          "line": 230
+        },
+        {
+          "name": "SpaceType",
+          "type": "App::PropertyEnumeration",
+          "group": "Space",
+          "desc": "The type of this space",
+          "line": 232
+        },
+        {
+          "name": "FloorThickness",
+          "type": "App::PropertyLength",
+          "group": "Space",
+          "desc": "The thickness of the floor finish",
+          "line": 235
+        },
+        {
+          "name": "NumberOfPeople",
+          "type": "App::PropertyInteger",
+          "group": "Space",
+          "desc": "The number of people who typically occupy this space",
+          "line": 237
+        },
+        {
+          "name": "LightingPower",
+          "type": "App::PropertyFloat",
+          "group": "Space",
+          "desc": "The electric power needed to light this space in Watts",
+          "line": 239
+        },
+        {
+          "name": "EquipmentPower",
+          "type": "App::PropertyFloat",
+          "group": "Space",
+          "desc": "The electric power needed by the equipment of this space in Watts",
+          "line": 241
+        },
+        {
+          "name": "AutoPower",
+          "type": "App::PropertyBool",
+          "group": "Space",
+          "desc": "If True, Equipment Power will be automatically filled by the equipment included in this space",
+          "line": 243
+        },
+        {
+          "name": "Conditioning",
+          "type": "App::PropertyEnumeration",
+          "group": "Space",
+          "desc": "The type of air conditioning of this space",
+          "line": 245
+        },
+        {
+          "name": "Internal",
+          "type": "App::PropertyBool",
+          "group": "Space",
+          "desc": "Specifies if this space is internal or external",
+          "line": 248
+        },
+        {
+          "name": "AreaCalculationType",
+          "type": "App::PropertyEnumeration",
+          "group": "Space",
+          "desc": "Defines the calculation type for the horizontal area and its perimeter length",
+          "line": 251
+        }
+      ]
+    },
+    "_ViewProviderSpace": {
+      "class": "_ViewProviderSpace",
+      "file": "ArchSpace.py",
+      "properties": [
+        {
+          "name": "Text",
+          "type": "App::PropertyStringList",
+          "group": "Space",
+          "desc": "The text to show. Use $area, $label, $tag, $longname, $description and for finishes $floor, $walls, $ceiling to insert the respective data",
+          "line": 451
+        },
+        {
+          "name": "FontName",
+          "type": "App::PropertyFont",
+          "group": "Space",
+          "desc": "The name of the font",
+          "line": 454
+        },
+        {
+          "name": "TextColor",
+          "type": "App::PropertyColor",
+          "group": "Space",
+          "desc": "The color of the area text",
+          "line": 457
+        },
+        {
+          "name": "FontSize",
+          "type": "App::PropertyLength",
+          "group": "Space",
+          "desc": "The size of the text font",
+          "line": 460
+        },
+        {
+          "name": "FirstLine",
+          "type": "App::PropertyLength",
+          "group": "Space",
+          "desc": "The size of the first line of text",
+          "line": 463
+        },
+        {
+          "name": "LineSpacing",
+          "type": "App::PropertyFloat",
+          "group": "Space",
+          "desc": "The space between the lines of text",
+          "line": 466
+        },
+        {
+          "name": "TextPosition",
+          "type": "App::PropertyVectorDistance",
+          "group": "Space",
+          "desc": "The position of the text. Leave (0,0,0) for automatic position",
+          "line": 469
+        },
+        {
+          "name": "TextAlign",
+          "type": "App::PropertyEnumeration",
+          "group": "Space",
+          "desc": "The justification of the text",
+          "line": 471
+        },
+        {
+          "name": "Decimals",
+          "type": "App::PropertyInteger",
+          "group": "Space",
+          "desc": "The number of decimals to use for calculated texts",
+          "line": 475
+        },
+        {
+          "name": "ShowUnit",
+          "type": "App::PropertyBool",
+          "group": "Space",
+          "desc": "Show the unit suffix",
+          "line": 478
+        }
+      ]
+    },
+    "_Stairs": {
+      "class": "_Stairs",
+      "file": "ArchStairs.py",
+      "properties": [
+        {
+          "name": "Length",
+          "type": "App::PropertyLength",
+          "group": "Stairs",
+          "desc": "The length of these stairs, if no baseline is defined",
+          "line": 73
+        },
+        {
+          "name": "Width",
+          "type": "App::PropertyLength",
+          "group": "Stairs",
+          "desc": "The width of these stairs",
+          "line": 75
+        },
+        {
+          "name": "Height",
+          "type": "App::PropertyLength",
+          "group": "Stairs",
+          "desc": "The total height of these stairs",
+          "line": 77
+        },
+        {
+          "name": "Align",
+          "type": "App::PropertyEnumeration",
+          "group": "Stairs",
+          "desc": "The alignment of these stairs on their baseline, if applicable",
+          "line": 79
+        },
+        {
+          "name": "WidthOfLanding",
+          "type": "App::PropertyFloatList",
+          "group": "Stairs",
+          "desc": "The width of a Landing (Second edge and after - First edge follows Width property)",
+          "line": 84
+        },
+        {
+          "name": "NumberOfSteps",
+          "type": "App::PropertyInteger",
+          "group": "Steps",
+          "desc": "The number of risers in these stairs",
+          "line": 89
+        },
+        {
+          "name": "TreadDepth",
+          "type": "App::PropertyLength",
+          "group": "Steps",
+          "desc": "The depth of the treads of these stairs",
+          "line": 91
+        },
+        {
+          "name": "RiserHeight",
+          "type": "App::PropertyLength",
+          "group": "Steps",
+          "desc": "The height of the risers of these stairs",
+          "line": 94
+        },
+        {
+          "name": "Nosing",
+          "type": "App::PropertyLength",
+          "group": "Steps",
+          "desc": "The size of the nosing",
+          "line": 97
+        },
+        {
+          "name": "TreadThickness",
+          "type": "App::PropertyLength",
+          "group": "Steps",
+          "desc": "The thickness of the treads",
+          "line": 99
+        },
+        {
+          "name": "BlondelRatio",
+          "type": "App::PropertyFloat",
+          "group": "Steps",
+          "desc": "The Blondel ratio indicates comfortable stairs and should be between 62 and 64cm or 24.5 and 25.5in",
+          "line": 101
+        },
+        {
+          "name": "RiserThickness",
+          "type": "App::PropertyLength",
+          "group": "Steps",
+          "desc": "The thickness of the risers",
+          "line": 105
+        },
+        {
+          "name": "LandingDepth",
+          "type": "App::PropertyLength",
+          "group": "Steps",
+          "desc": "The depth of the landing of these stairs",
+          "line": 108
+        },
+        {
+          "name": "TreadDepthEnforce",
+          "type": "App::PropertyLength",
+          "group": "Steps",
+          "desc": "The depth of the treads of these stairs - Enforced regardless of Length or edge's Length",
+          "line": 111
+        },
+        {
+          "name": "RiserHeightEnforce",
+          "type": "App::PropertyLength",
+          "group": "Steps",
+          "desc": "The height of the risers of these stairs - Enforced regardless of Height or edge's Height",
+          "line": 113
+        },
+        {
+          "name": "Flight",
+          "type": "App::PropertyEnumeration",
+          "group": "Structure",
+          "desc": "The direction of flight after landing",
+          "line": 116
+        },
+        {
+          "name": "LastSegment",
+          "type": "App::PropertyLink",
+          "group": "Segment and Parts",
+          "desc": "Last Segment (Flight or Landing) of Arch Stairs connecting to This Segment",
+          "line": 121
+        },
+        {
+          "name": "AbsTop",
+          "type": "App::PropertyVector",
+          "group": "Segment and Parts",
+          "desc": "The 'absolute' top level of a flight of stairs leads to",
+          "line": 123
+        },
+        {
+          "name": "OutlineLeft",
+          "type": "App::PropertyVectorList",
+          "group": "Segment and Parts",
+          "desc": "The 'left outline' of stairs",
+          "line": 126
+        },
+        {
+          "name": "OutlineRight",
+          "type": "App::PropertyVectorList",
+          "group": "Segment and Parts",
+          "desc": "The 'left outline' of stairs",
+          "line": 129
+        },
+        {
+          "name": "RailingLeft",
+          "type": "App::PropertyLinkHidden",
+          "group": "Segment and Parts",
+          "desc": "Name of Railing object (left) created",
+          "line": 145
+        },
+        {
+          "name": "RailingRight",
+          "type": "App::PropertyLinkHidden",
+          "group": "Segment and Parts",
+          "desc": "Name of Railing object (right) created",
+          "line": 147
+        },
+        {
+          "name": "OutlineLeftAll",
+          "type": "App::PropertyVectorList",
+          "group": "Segment and Parts",
+          "desc": "The 'left outline' of all segments of stairs",
+          "line": 150
+        },
+        {
+          "name": "OutlineRightAll",
+          "type": "App::PropertyVectorList",
+          "group": "Segment and Parts",
+          "desc": "The 'right outline' of all segments of stairs",
+          "line": 153
+        },
+        {
+          "name": "RailingHeightLeft",
+          "type": "App::PropertyLength",
+          "group": "Segment and Parts",
+          "desc": "Height of Railing on Left hand side from Stairs or Landing ",
+          "line": 169
+        },
+        {
+          "name": "RailingHeightRight",
+          "type": "App::PropertyLength",
+          "group": "Segment and Parts",
+          "desc": "Height of Railing on Right hand side from Stairs or Landing ",
+          "line": 171
+        },
+        {
+          "name": "RailingOffsetLeft",
+          "type": "App::PropertyLength",
+          "group": "Segment and Parts",
+          "desc": "Offset of Railing on Left hand side from stairs or landing Edge ",
+          "line": 173
+        },
+        {
+          "name": "RailingOffsetRight",
+          "type": "App::PropertyLength",
+          "group": "Segment and Parts",
+          "desc": "Offset of Railing on Right hand side from stairs or landing Edge ",
+          "line": 175
+        },
+        {
+          "name": "Landings",
+          "type": "App::PropertyEnumeration",
+          "group": "Structure",
+          "desc": "The type of landings of these stairs",
+          "line": 179
+        },
+        {
+          "name": "Winders",
+          "type": "App::PropertyEnumeration",
+          "group": "Structure",
+          "desc": "The type of winders in these stairs",
+          "line": 182
+        },
+        {
+          "name": "Structure",
+          "type": "App::PropertyEnumeration",
+          "group": "Structure",
+          "desc": "The type of structure of these stairs",
+          "line": 185
+        },
+        {
+          "name": "StructureThickness",
+          "type": "App::PropertyLength",
+          "group": "Structure",
+          "desc": "The thickness of the massive structure or of the stringers",
+          "line": 188
+        },
+        {
+          "name": "StringerWidth",
+          "type": "App::PropertyLength",
+          "group": "Structure",
+          "desc": "The width of the stringers",
+          "line": 190
+        },
+        {
+          "name": "StructureOffset",
+          "type": "App::PropertyLength",
+          "group": "Structure",
+          "desc": "The offset between the border of the stairs and the structure",
+          "line": 192
+        },
+        {
+          "name": "StringerOverlap",
+          "type": "App::PropertyLength",
+          "group": "Structure",
+          "desc": "The overlap of the stringers above the bottom of the treads",
+          "line": 194
+        },
+        {
+          "name": "DownSlabThickness",
+          "type": "App::PropertyLength",
+          "group": "Structure",
+          "desc": "The thickness of the lower floor slab",
+          "line": 196
+        },
+        {
+          "name": "UpSlabThickness",
+          "type": "App::PropertyLength",
+          "group": "Structure",
+          "desc": "The thickness of the upper floor slab",
+          "line": 198
+        },
+        {
+          "name": "ConnectionDownStartStairs",
+          "type": "App::PropertyEnumeration",
+          "group": "Structure",
+          "desc": "The type of connection between the lower floor slab and the start of the stairs",
+          "line": 200
+        },
+        {
+          "name": "ConnectionEndStairsUp",
+          "type": "App::PropertyEnumeration",
+          "group": "Structure",
+          "desc": "The type of connection between the end of the stairs and the upper floor slab",
+          "line": 203
+        }
+      ]
+    },
+    "_Structure": {
+      "class": "_Structure",
+      "file": "ArchStructure.py",
+      "properties": [
+        {
+          "name": "Tool",
+          "type": "App::PropertyLinkSubList",
+          "group": "ExtrusionPath",
+          "desc": "An optional extrusion path for this element",
+          "line": 684
+        },
+        {
+          "name": "ComputedLength",
+          "type": "App::PropertyDistance",
+          "group": "ExtrusionPath",
+          "desc": "The computed length of the extrusion path",
+          "line": 686
+        },
+        {
+          "name": "ToolOffsetFirst",
+          "type": "App::PropertyDistance",
+          "group": "ExtrusionPath",
+          "desc": "Start offset distance along the extrusion path (positive: extend, negative: trim)",
+          "line": 688
+        },
+        {
+          "name": "ToolOffsetLast",
+          "type": "App::PropertyDistance",
+          "group": "ExtrusionPath",
+          "desc": "End offset distance along the extrusion path (positive: extend, negative: trim)",
+          "line": 690
+        },
+        {
+          "name": "BasePerpendicularToTool",
+          "type": "App::PropertyBool",
+          "group": "ExtrusionPath",
+          "desc": "Automatically align the Base of the Structure perpendicular to the Tool axis",
+          "line": 692
+        },
+        {
+          "name": "BaseOffsetX",
+          "type": "App::PropertyDistance",
+          "group": "ExtrusionPath",
+          "desc": "X offset between the Base origin and the Tool axis (only used if BasePerpendicularToTool is True)",
+          "line": 694
+        },
+        {
+          "name": "BaseOffsetY",
+          "type": "App::PropertyDistance",
+          "group": "ExtrusionPath",
+          "desc": "Y offset between the Base origin and the Tool axis (only used if BasePerpendicularToTool is True)",
+          "line": 696
+        },
+        {
+          "name": "BaseMirror",
+          "type": "App::PropertyBool",
+          "group": "ExtrusionPath",
+          "desc": "Mirror the Base along its Y axis (only used if BasePerpendicularToTool is True)",
+          "line": 698
+        },
+        {
+          "name": "BaseRotation",
+          "type": "App::PropertyAngle",
+          "group": "ExtrusionPath",
+          "desc": "Base rotation around the Tool axis (only used if BasePerpendicularToTool is True)",
+          "line": 700
+        },
+        {
+          "name": "Length",
+          "type": "App::PropertyLength",
+          "group": "Structure",
+          "desc": "The length of this element, if not based on a profile",
+          "line": 702
+        },
+        {
+          "name": "Width",
+          "type": "App::PropertyLength",
+          "group": "Structure",
+          "desc": "The width of this element, if not based on a profile",
+          "line": 704
+        },
+        {
+          "name": "Height",
+          "type": "App::PropertyLength",
+          "group": "Structure",
+          "desc": "The height or extrusion depth of this element. Keep 0 for automatic",
+          "line": 706
+        },
+        {
+          "name": "Normal",
+          "type": "App::PropertyVector",
+          "group": "Structure",
+          "desc": "The normal extrusion direction of this object (keep (0,0,0) for automatic normal)",
+          "line": 708
+        },
+        {
+          "name": "Nodes",
+          "type": "App::PropertyVectorList",
+          "group": "Structure",
+          "desc": "The structural nodes of this element",
+          "line": 710
+        },
+        {
+          "name": "Profile",
+          "type": "App::PropertyString",
+          "group": "Structure",
+          "desc": "A description of the standard profile this element is based upon",
+          "line": 712
+        },
+        {
+          "name": "NodesOffset",
+          "type": "App::PropertyDistance",
+          "group": "Structure",
+          "desc": "Offset distance between the centerline and the nodes line",
+          "line": 714
+        },
+        {
+          "name": "FaceMaker",
+          "type": "App::PropertyEnumeration",
+          "group": "Structure",
+          "desc": "The facemaker type to use to build the profile of this object",
+          "line": 716
+        },
+        {
+          "name": "ArchSketchEdges",
+          "type": "App::PropertyStringList",
+          "group": "Structure",
+          "desc": "Selected edges (or group of edges) of the base ArchSketch, to use in creating the shape of this BIM Structure (instead of using all the Base shape's edges by default).  Input are index numbers of edges or groups.",
+          "line": 719
+        }
+      ]
+    },
+    "_ViewProviderStructure": {
+      "class": "_ViewProviderStructure",
+      "file": "ArchStructure.py",
+      "properties": [
+        {
+          "name": "NodeLine",
+          "type": "App::PropertyFloat",
+          "group": "Nodes",
+          "desc": "The width of the nodes line",
+          "line": 1054
+        },
+        {
+          "name": "NodeSize",
+          "type": "App::PropertyFloat",
+          "group": "Nodes",
+          "desc": "The size of the node points",
+          "line": 1056
+        },
+        {
+          "name": "NodeColor",
+          "type": "App::PropertyColor",
+          "group": "Nodes",
+          "desc": "The color of the nodes line",
+          "line": 1059
+        },
+        {
+          "name": "NodeType",
+          "type": "App::PropertyEnumeration",
+          "group": "Nodes",
+          "desc": "The type of structural node",
+          "line": 1062
+        },
+        {
+          "name": "ShowNodes",
+          "type": "App::PropertyBool",
+          "group": "Nodes",
+          "desc": "If the nodes are visible or not",
+          "line": 1052
+        }
+      ]
+    },
+    "StructureTaskPanel": {
+      "class": "StructureTaskPanel",
+      "file": "ArchStructure.py",
+      "properties": [
+        {
+          "name": "Tool",
+          "type": "App::PropertyLinkSubList",
+          "group": "Structure",
+          "desc": "An optional extrusion path for this element",
+          "line": 1361
+        }
+      ]
+    },
+    "_StructuralSystem": {
+      "class": "_StructuralSystem",
+      "file": "ArchStructure.py",
+      "properties": [
+        {
+          "name": "Axes",
+          "type": "App::PropertyLinkList",
+          "group": "Arch",
+          "desc": "Axes systems this structure is built on",
+          "line": 1396
+        },
+        {
+          "name": "Exclude",
+          "type": "App::PropertyIntegerList",
+          "group": "Arch",
+          "desc": "The element numbers to exclude when this structure is based on axes",
+          "line": 1397
+        },
+        {
+          "name": "Align",
+          "type": "App::PropertyBool",
+          "group": "Arch",
+          "desc": "If true the element are aligned with axes",
+          "line": 1398
+        }
+      ]
+    },
+    "Truss": {
+      "class": "Truss",
+      "file": "ArchTruss.py",
+      "properties": [
+        {
+          "name": "TrussAngle",
+          "type": "App::PropertyAngle",
+          "group": "Truss",
+          "desc": "The angle of the truss",
+          "line": 69
+        },
+        {
+          "name": "SlantType",
+          "type": "App::PropertyEnumeration",
+          "group": "Truss",
+          "desc": "The slant type of this truss",
+          "line": 73
+        },
+        {
+          "name": "Normal",
+          "type": "App::PropertyVector",
+          "group": "Truss",
+          "desc": "The normal direction of this truss",
+          "line": 77
+        },
+        {
+          "name": "HeightStart",
+          "type": "App::PropertyLength",
+          "group": "Truss",
+          "desc": "The height of the truss at the start position",
+          "line": 81
+        },
+        {
+          "name": "HeightEnd",
+          "type": "App::PropertyLength",
+          "group": "Truss",
+          "desc": "The height of the truss at the end position",
+          "line": 85
+        },
+        {
+          "name": "StrutStartOffset",
+          "type": "App::PropertyDistance",
+          "group": "Truss",
+          "desc": "An optional start offset for the top strut",
+          "line": 89
+        },
+        {
+          "name": "StrutEndOffset",
+          "type": "App::PropertyDistance",
+          "group": "Truss",
+          "desc": "An optional end offset for the top strut",
+          "line": 92
+        },
+        {
+          "name": "StrutHeight",
+          "type": "App::PropertyLength",
+          "group": "Truss",
+          "desc": "The height of the main top and bottom elements of the truss",
+          "line": 95
+        },
+        {
+          "name": "StrutWidth",
+          "type": "App::PropertyLength",
+          "group": "Truss",
+          "desc": "The width of the main top and bottom elements of the truss",
+          "line": 99
+        },
+        {
+          "name": "RodType",
+          "type": "App::PropertyEnumeration",
+          "group": "Truss",
+          "desc": "The type of the middle element of the truss",
+          "line": 103
+        },
+        {
+          "name": "RodDirection",
+          "type": "App::PropertyEnumeration",
+          "group": "Truss",
+          "desc": "The direction of the rods",
+          "line": 107
+        },
+        {
+          "name": "RodSize",
+          "type": "App::PropertyLength",
+          "group": "Truss",
+          "desc": "The diameter or side of the rods",
+          "line": 111
+        },
+        {
+          "name": "RodSections",
+          "type": "App::PropertyInteger",
+          "group": "Truss",
+          "desc": "The number of rod sections",
+          "line": 115
+        },
+        {
+          "name": "RodEnd",
+          "type": "App::PropertyBool",
+          "group": "Truss",
+          "desc": "If the truss has a rod at its endpoint or not",
+          "line": 119
+        },
+        {
+          "name": "RodMode",
+          "type": "App::PropertyEnumeration",
+          "group": "Truss",
+          "desc": "How to draw the rods",
+          "line": 122
+        }
+      ]
+    },
+    "_Wall": {
+      "class": "_Wall",
+      "file": "ArchWall.py",
+      "properties": [
+        {
+          "name": "Length",
+          "type": "App::PropertyLength",
+          "group": "Wall",
+          "desc": "The length of this wall. Read-only if this wall is not based on an unconstrained sketch with a single edge, or on a Draft Wire with a single edge. Refer to wiki for details how length is deduced.",
+          "line": 160
+        },
+        {
+          "name": "Width",
+          "type": "App::PropertyLength",
+          "group": "Wall",
+          "desc": "The width of this wall. Not used if this wall is based on a face. Disabled and ignored if Base object (ArchSketch) provides the information.",
+          "line": 162
+        },
+        {
+          "name": "OverrideWidth",
+          "type": "App::PropertyFloatList",
+          "group": "Wall",
+          "desc": "This overrides Width attribute to set width of each segment of wall.  Disabled and ignored if Base object (ArchSketch) provides Widths information, with getWidths() method  (If a value is zero, the value of 'Width' will be followed).  [ENHANCEMENT by ArchSketch] GUI 'Edit Wall Segment Width' Tool is provided in external SketchArch Add-on to let users to set the values interactively.  'Toponaming-Tolerant' if ArchSketch is used in Base (and SketchArch Add-on is installed).  Warning : Not 'Toponaming-Tolerant' if just Sketch is used.",
+          "line": 166
+        },
+        {
+          "name": "OverrideAlign",
+          "type": "App::PropertyStringList",
+          "group": "Wall",
+          "desc": "This overrides Align attribute to set align of each segment of wall.  Disabled and ignored if Base object (ArchSketch) provides Aligns information, with getAligns() method  (If a value is not 'Left, Right, Center', the value of 'Align' will be followed).  [ENHANCEMENT by ArchSketch] GUI 'Edit Wall Segment Align' Tool is provided in external SketchArch Add-on to let users to set the values interactively.  'Toponaming-Tolerant' if ArchSketch is used in Base (and SketchArch Add-on is installed).  Warning : Not 'Toponaming-Tolerant' if just Sketch is used.",
+          "line": 168
+        },
+        {
+          "name": "OverrideOffset",
+          "type": "App::PropertyFloatList",
+          "group": "Wall",
+          "desc": "This overrides Offset attribute to set offset of each segment of wall.  Disabled and ignored if Base object (ArchSketch) provides Offsets information, with getOffsets() method  (If a value is zero, the value of 'Offset' will be followed).  [ENHANCED by ArchSketch] GUI 'Edit Wall Segment Offset' Tool is provided in external Add-on ('SketchArch') to let users to select the edges interactively.  'Toponaming-Tolerant' if ArchSketch is used in Base (and SketchArch Add-on is installed).  Warning : Not 'Toponaming-Tolerant' if just Sketch is used. Property is ignored if Base ArchSketch provided the selected edges. ",
+          "line": 170
+        },
+        {
+          "name": "Height",
+          "type": "App::PropertyLength",
+          "group": "Wall",
+          "desc": "The height of this wall. Keep 0 for automatic. Not used if this wall is based on a solid",
+          "line": 172
+        },
+        {
+          "name": "Area",
+          "type": "App::PropertyArea",
+          "group": "Wall",
+          "desc": "The area of this wall as a simple Height * Length calculation",
+          "line": 174
+        },
+        {
+          "name": "Align",
+          "type": "App::PropertyEnumeration",
+          "group": "Wall",
+          "desc": "The alignment of this wall on its base object, if applicable. Disabled and ignored if Base object (ArchSketch) provides the information.",
+          "line": 177
+        },
+        {
+          "name": "Normal",
+          "type": "App::PropertyVector",
+          "group": "Wall",
+          "desc": "The normal extrusion direction of this object (keep (0,0,0) for automatic normal)",
+          "line": 180
+        },
+        {
+          "name": "Face",
+          "type": "App::PropertyInteger",
+          "group": "Wall",
+          "desc": "The face number of the base object used to build this wall",
+          "line": 182
+        },
+        {
+          "name": "Offset",
+          "type": "App::PropertyDistance",
+          "group": "Wall",
+          "desc": "The offset between this wall and its baseline (only for left and right alignments). Disabled and ignored if Base object (ArchSketch) provides the information.",
+          "line": 184
+        },
+        {
+          "name": "MakeBlocks",
+          "type": "App::PropertyBool",
+          "group": "Blocks",
+          "desc": "Enable this to make the wall generate blocks",
+          "line": 193
+        },
+        {
+          "name": "BlockLength",
+          "type": "App::PropertyLength",
+          "group": "Blocks",
+          "desc": "The length of each block",
+          "line": 195
+        },
+        {
+          "name": "BlockHeight",
+          "type": "App::PropertyLength",
+          "group": "Blocks",
+          "desc": "The height of each block",
+          "line": 197
+        },
+        {
+          "name": "OffsetFirst",
+          "type": "App::PropertyLength",
+          "group": "Blocks",
+          "desc": "The horizontal offset of the first line of blocks",
+          "line": 199
+        },
+        {
+          "name": "OffsetSecond",
+          "type": "App::PropertyLength",
+          "group": "Blocks",
+          "desc": "The horizontal offset of the second line of blocks",
+          "line": 201
+        },
+        {
+          "name": "Joint",
+          "type": "App::PropertyLength",
+          "group": "Blocks",
+          "desc": "The size of the joints between each block",
+          "line": 203
+        },
+        {
+          "name": "CountEntire",
+          "type": "App::PropertyInteger",
+          "group": "Blocks",
+          "desc": "The number of entire blocks",
+          "line": 205
+        },
+        {
+          "name": "CountBroken",
+          "type": "App::PropertyInteger",
+          "group": "Blocks",
+          "desc": "The number of broken blocks",
+          "line": 208
+        },
+        {
+          "name": "ArchSketchData",
+          "type": "App::PropertyBool",
+          "group": "Wall",
+          "desc": "Use Base ArchSketch (if used) data (e.g. widths, aligns, offsets) instead of Wall's properties",
+          "line": 211
+        },
+        {
+          "name": "ArchSketchEdges",
+          "type": "App::PropertyStringList",
+          "group": "Wall",
+          "desc": "Selected edges (or group of edges) of the base Sketch/ArchSketch, to use in creating the shape of this Arch Wall (instead of using all the Base Sketch/ArchSketch's edges by default).  Input are index numbers of edges or groups.  Disabled and ignored if Base object (ArchSketch) provides selected edges (as Wall Axis) information, with getWallBaseShapeEdgesInfo() method.  [ENHANCEMENT by ArchSketch] GUI 'Edit Wall Segment' Tool is provided in external SketchArch Add-on to let users to (de)select the edges interactively.  'Toponaming-Tolerant' if ArchSketch is used in Base (and SketchArch Add-on is installed).  Warning : Not 'Toponaming-Tolerant' if just Sketch is used.",
+          "line": 214
+        }
+      ]
+    },
+    "_Window": {
+      "class": "_Window",
+      "file": "ArchWindow.py",
+      "properties": [
+        {
+          "name": "Hosts",
+          "type": "App::PropertyLinkList",
+          "group": "Window",
+          "desc": "The objects that host this window",
+          "line": 126
+        },
+        {
+          "name": "WindowParts",
+          "type": "App::PropertyStringList",
+          "group": "Window",
+          "desc": "The components of this window",
+          "line": 128
+        },
+        {
+          "name": "HoleDepth",
+          "type": "App::PropertyLength",
+          "group": "Window",
+          "desc": "The depth of the hole that this window makes in its host object. If 0, the value will be calculated automatically.",
+          "line": 131
+        },
+        {
+          "name": "Subvolume",
+          "type": "App::PropertyLink",
+          "group": "Window",
+          "desc": "An optional object that defines a volume to be subtracted from hosts of this window",
+          "line": 133
+        },
+        {
+          "name": "Width",
+          "type": "App::PropertyLength",
+          "group": "Window",
+          "desc": "The width of this window",
+          "line": 135
+        },
+        {
+          "name": "Height",
+          "type": "App::PropertyLength",
+          "group": "Window",
+          "desc": "The height of this window",
+          "line": 137
+        },
+        {
+          "name": "Normal",
+          "type": "App::PropertyVector",
+          "group": "Window",
+          "desc": "The normal direction of this window",
+          "line": 139
+        },
+        {
+          "name": "Preset",
+          "type": "App::PropertyInteger",
+          "group": "Window",
+          "desc": "The preset number this window is based on",
+          "line": 141
+        },
+        {
+          "name": "Frame",
+          "type": "App::PropertyLength",
+          "group": "Window",
+          "desc": "The frame size of this window",
+          "line": 144
+        },
+        {
+          "name": "Offset",
+          "type": "App::PropertyLength",
+          "group": "Window",
+          "desc": "The offset size of this window",
+          "line": 146
+        },
+        {
+          "name": "Area",
+          "type": "App::PropertyArea",
+          "group": "Window",
+          "desc": "The area of this window",
+          "line": 148
+        },
+        {
+          "name": "LouvreWidth",
+          "type": "App::PropertyLength",
+          "group": "Window",
+          "desc": "The width of louvre elements",
+          "line": 150
+        },
+        {
+          "name": "LouvreSpacing",
+          "type": "App::PropertyLength",
+          "group": "Window",
+          "desc": "The space between louvre elements",
+          "line": 152
+        },
+        {
+          "name": "Opening",
+          "type": "App::PropertyPercent",
+          "group": "Window",
+          "desc": "Opens the subcomponents that have a hinge defined",
+          "line": 154
+        },
+        {
+          "name": "HoleWire",
+          "type": "App::PropertyInteger",
+          "group": "Window",
+          "desc": "The number of the wire that defines the hole. If 0, the value will be calculated automatically",
+          "line": 156
+        },
+        {
+          "name": "SymbolPlan",
+          "type": "App::PropertyBool",
+          "group": "Window",
+          "desc": "Shows plan opening symbols if available",
+          "line": 158
+        },
+        {
+          "name": "SymbolElevation",
+          "type": "App::PropertyBool",
+          "group": "Window",
+          "desc": "Show elevation opening symbols if available",
+          "line": 160
+        }
+      ]
+    },
+    "_ArchWindowTaskPanel": {
+      "class": "_ArchWindowTaskPanel",
+      "file": "ArchWindow.py",
+      "properties": [
+        {
+          "name": "HoleWire",
+          "type": "App::PropertyInteger",
+          "group": "Arch",
+          "desc": "The number of the wire that defines the hole. A value of 0 means automatic",
+          "line": 1112
+        }
+      ]
+    }
+  }
+}

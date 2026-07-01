@@ -1,0 +1,28 @@
+freecad-bim-workbench-skill
+Copyright 2026 jfboisvenue
+
+The original content of this repository — the extraction tool (tools/extract_api.py),
+the SKILL.md manifest, and the recipe/prose portions of the reference sheets — is
+licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This product includes documentation and API reference data DERIVED FROM the FreeCAD
+project (https://www.freecad.org). These derived portions retain their upstream
+licenses and are provided here under them, with attribution:
+
+  * The reference sheets in reference/*.md are distilled from the FreeCAD wiki
+    (https://wiki.freecad.org). FreeCAD documentation is licensed under the
+    Creative Commons Attribution 3.0 License (CC-BY-3.0).
+    © FreeCAD contributors.
+
+  * The generated API data in reference/_generated/ (signatures, properties)
+    is extracted by static analysis from the FreeCAD source code
+    (src/Mod/BIM/Arch*.py), which is licensed under the GNU Lesser General
+    Public License (LGPL-2.1-or-later).
+    © FreeCAD contributors.
+
+Building-code references (e.g. Code de construction du Québec / CNB) cited in the
+recipe sheets are article numbers only, given for traceability; the normative text
+belongs to its respective publishers and is NOT reproduced here.
+
+FreeCAD is a trademark of its respective owner. This project is not affiliated with
+or endorsed by the FreeCAD project.
